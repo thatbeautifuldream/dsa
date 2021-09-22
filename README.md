@@ -1,2 +1,3 @@
 # dsa-level1-pepcoding
-☕️ ⚠️ This repository consists of all the code from the pepcoding dsa level 1 course in Java
+
+![dsa-level1-pepcoding](https://socialify.git.ci/thatbeautifuldream/dsa-level1-pepcoding/image?description=1&owner=1&theme=Dark)
