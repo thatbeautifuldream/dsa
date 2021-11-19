@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Loops {
     public static void main(String[] args) {
         int i = 0;
@@ -23,9 +25,22 @@ public class Loops {
         // }
 
         // to print table
-        int tableNumber = 13;
-        for (int num = 1; num <= 10; num++) {
-            System.out.println(tableNumber + " x " + num + " = " + (tableNumber * num));
+        // int tableNumber = 13;
+        // for (int num = 1; num <= 10; num++) {
+        // System.out.println(tableNumber + " x " + num + " = " + (tableNumber * num));
+        // }
+
+        // Primes
+        Scanner sc = new Scanner(System.in);
+        boolean isPrime = true;
+        int num = sc.nextInt();
+        for (i = 2; i < num; i++) {
+            if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
         }
+        System.out.println(isPrime);
+
     }
 }
