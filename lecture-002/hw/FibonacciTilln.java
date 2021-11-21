@@ -1,9 +1,8 @@
+import java.util.*;
 
 // 1. You've to print first n fibonacci numbers.
 // 2. Take as input "n", the count of fibonacci numbers to print.
 // 3. Print first n fibonacci numbers.
-import java.util.Scanner;
-
 public class FibonacciTilln {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class FibonacciTilln {
         if (n < 1)
             return;
         System.out.println(f1);
-        for (i = 0; i < n; i++) {
+        for (i = 0; i < n - 1; i++) {
             System.out.println(f2);
             int next = f1 + f2;
             f1 = f2;
