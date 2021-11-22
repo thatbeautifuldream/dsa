@@ -8,10 +8,14 @@ public class ReverseOfNumber {
         sc.close();
     }
 
-    public static void printInReverse(int num) {
+    public static int printInReverse(int num) {
+        int lastIndex = 1, res = 0;
         while (num != 0) {
-            System.out.print(num % 10);
+            int lastDigit = num % 10;
             num /= 10;
+            res += lastIndex * (int) Math.pow(10, lastDigit - 1);
+            lastIndex++;
         }
+        return res;
     }
 }
