@@ -8,8 +8,6 @@ public class InverseNumber {
         sc.close();
     }
 
-    public static void main
-
     public static void printInverse(int num) {
         int ans = 0;
         // DOING

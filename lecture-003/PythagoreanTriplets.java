@@ -1,6 +1,6 @@
 import java.util.*;
 
-// print if 
+// print if given tripplet is a pythagorean triplet
 public class PythagoreanTriplets {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
