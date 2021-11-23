@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
 public class RotateByK {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int k = sc.nextInt();
-        rotateNumber(n, k);
-    }
 
-    
+    public static int countDigits(int n) {
+        int count = 0;
+        while (n != 0) {
+            n = n / 10;
+            count++;
+        }
+        return count;
+    }
 
     public static int rotateNumber(int n, int k) {
         int len = countDigits(n);
@@ -23,6 +24,14 @@ public class RotateByK {
         int a = n / div;
         int b = n % div;
         return (b * mul + a);
+    }
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int rotatedNumber = rotateNumber(n, k);
+        System.out.println(rotatedNumber);
+        sc.close();
     }
 }
