@@ -1,5 +1,4 @@
-
-# FJP
+# FJP Class Notes & Code Snippets
 
 >  `First Job Program` 🔗 A program targeted For 3rd/4th year college students preparing for their first job.
 
