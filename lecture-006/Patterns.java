@@ -27,7 +27,7 @@ public class Patterns {
         }
     }
 
-    public static void like_pattern15(int n) { // hollow diamond
+    public static void like_pattern15(int n) {
         if (n % 2 == 0) {
             n++;
         }
@@ -55,7 +55,7 @@ public class Patterns {
         }
     }
 
-    public static void pattern15(int n) { // hollow diamond
+    public static void pattern15(int n) {
         if (n % 2 == 0) {
             n++;
         }
