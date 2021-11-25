@@ -47,6 +47,32 @@ public class Pattern {
         }
     }
 
+    public static void pattern9_01(int n) {
+        int nsp1 = 0, nsp2 = n - 2;
+        for (int r = 1; r <= n; r++) {
+            for (int csp1 = 1; csp1 <= nsp1; csp1++)
+                System.out.print("\t");
+
+            System.out.print("*\t");
+
+            for (int csp2 = 1; csp2 <= nsp2; csp2++)
+                System.out.print("\t");
+
+            if (r != n / 2 + 1)
+                System.out.print("*\t");
+
+            if (r <= n / 2) {
+                nsp1++;
+                nsp2 -= 2;
+            } else {
+                nsp1--;
+                nsp2 += 2;
+            }
+
+            System.out.println();
+        }
+    }
+
     // public static void pattern9GapStrategy(int rows) {
     // if (n % 2 == 0) {
     // n++;
