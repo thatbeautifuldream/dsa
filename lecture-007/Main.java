@@ -131,4 +131,16 @@ public class Main {
         return ans;
     }
 
+    // home work
+    // given n > m
+    // 1.
+    // public static int decimalSubstration(int n, int m) {
+    // }
+    // 2.
+    // public static int binarySubstration(int n, int m) {
+    // }
+    // 3.
+    // public static int anySubstration(int n, int m, int b) {
+    // }
+
 }
