@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int ans = binaryToDecimal(n);
+        int ans = anyBaseToDecimal(n, 2);
         System.out.println(ans);
         sc.close();
     }
@@ -27,6 +27,29 @@ public class Main {
             n /= 10;
             ans += (r * pow);
             pow *= 2;
+        }
+        return ans;
+    }
+
+    // base ranges from 2 to 10
+    public static int decimalToAnyBase(int n, int b) {
+        int ans = 0, pow = 1;
+        while (n != 0) {
+            int r = n % b;
+            n /= b;
+            ans += (r * pow);
+            pow *= 10;
+        }
+        return ans;
+    }
+
+    public static int anyBaseToDecimal(int n, int b) {
+        int ans = 0, pow = 1;
+        while (n != 0) {
+            int r = n % 10;
+            n /= 10;
+            ans += (r * pow);
+            pow *= b;
         }
         return ans;
     }
