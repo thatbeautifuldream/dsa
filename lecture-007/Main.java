@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int ans = decimalAddition(sc.nextInt(), sc.nextInt());
+        int ans = anyAddition(sc.nextInt(), sc.nextInt(), sc.nextInt());
         System.out.println(ans);
         sc.close();
     }
@@ -97,6 +97,34 @@ public class Main {
             m /= 10;
             carry = sum / 10;
             sum %= 10;
+            ans += sum * pow;
+            pow *= 10;
+        }
+        return ans;
+    }
+
+    public static int binaryAddition(int n, int m) {
+        int ans = 0, carry = 0, pow = 1;
+        while (n != 0 || m != 0 || carry != 0) {
+            int sum = n % 10 + m % 10 + carry;
+            n /= 10;
+            m /= 10;
+            carry = sum / 2;
+            sum %= 2;
+            ans += sum * pow;
+            pow *= 10;
+        }
+        return ans;
+    }
+
+    public static int anyAddition(int n, int m, int b) {
+        int ans = 0, carry = 0, pow = 1;
+        while (n != 0 || m != 0 || carry != 0) {
+            int sum = n % 10 + m % 10 + carry;
+            n /= 10;
+            m /= 10;
+            carry = sum / b;
+            sum %= b;
             ans += sum * pow;
             pow *= 10;
         }
