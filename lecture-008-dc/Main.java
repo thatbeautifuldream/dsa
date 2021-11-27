@@ -58,9 +58,58 @@ public class Main {
 
     }
 
+    /*
+     * conditionals
+     * if, else if, else
+     * if (condition) {
+     * // code to be executed if condition is true
+     * } else if (condition) {
+     * // code to be executed if condition is true
+     * } else {
+     * // code to be executed if condition is false
+     * }
+     * == : equal to
+     * != : not equal to
+     * < : less than
+     * > : greater than
+     * <= : less than or equal to
+     * >= : greater than or equal to
+     * && : and
+     * || : or
+     * ! : not
+     */
+
+    public static void ageCheck() {
+        int age = 50; // value of age assigned to variable named age
+        int myFriendAge = 21; // value of myFriendAge assigned to variable named myFriendAge
+        if (age < 18) { // condition 1
+            System.out.println("You are a minor");
+        } else if (age < 21) { // condition 2
+            System.out.println("You are a teenager");
+        } else if (age < 30) { // condition 3
+            System.out.println("You are a young adult");
+        } else if (age < 40) { // condition 4
+            System.out.println("You are a adult");
+        } else if (age < 50) { // condition 5
+            System.out.println("You are a middle aged");
+        } else if (age < 60) { // condition 6
+            System.out.println("You are a old");
+        } else { // else automatic condition which are excluded from all if, else if conditions
+            System.out.println("You are a senior");
+        }
+        // application of == operator
+        if (age == myFriendAge) {
+            System.out.println("You and your friend are of the same age");
+        } else if (age > myFriendAge) {
+            System.out.println("You are older than your friend");
+        } else {
+            System.out.println("You are younger than your friend");
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        printZ();
+        ageCheck();
         sc.close();
     }
 }
