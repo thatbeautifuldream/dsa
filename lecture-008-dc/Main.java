@@ -146,6 +146,36 @@ public class Main {
         sc.close();
     }
 
+    public static void loopsDemo() {
+        // types of loops : for, while, do while
+        // entry controlled loops : for, while
+        // exit controlled loops : do while
+
+        // for loop :
+        // for (initialization; condition; increment/decrement) {
+        // // code to be executed
+        // }
+        // initialization : used to initialize the value of the variable
+        // condition : used to check the condition
+        // increment/decrement : used to increment/decrement the value of the variable
+        // for loop is used to iterate over a block of code a specified number of times
+
+        // while loop :
+        // while (condition) {
+        // // code to be executed
+        // }
+        // while loop is used to iterate over a block of code while a specified
+        // condition is true
+
+        // do while loop :
+        // do {
+        // // code to be executed
+        // } while (condition);
+        // do while loop is used to iterate over a block of code at least once
+        // while a specified condition is true
+
+    }
+
     public static void main(String[] args) {
         userInput();
         sc.close();
