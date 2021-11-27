@@ -107,8 +107,33 @@ public class Main {
         }
     }
 
+    // Ternary Operator :
+    // condition ? true : false
+    public static void ageCheckTernary() {
+        int age = 50;
+        String message = (age < 18) ? "You are a minor" : "You are a senior";
+        System.out.println(message);
+    }
+
+    // Taking input from user :
+    // Scanner Class :
+    // Scanner class is used to take input from the user
+
+    public static void userInput() {
+        System.out.println("Enter your name : ");
+        String name = sc.nextLine(); // taking string input from Scanner
+        System.out.println("Enter your age : ");
+        int age = sc.nextInt(); // taking integer input from Scanner
+        System.out.println("Enter your height : ");
+        double height = sc.nextDouble(); // taking double input from Scanner
+        System.out.println("Enter your weight : ");
+        double weight = sc.nextDouble(); // taking double input from Scanner
+        System.out.println(
+                "Hi, " + name + "! You are " + age + " years old, " + height + " cm tall and " + weight + " kg heavy.");
+    }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // making object 'sc' of Scanner class
         ageCheck();
         sc.close();
     }
