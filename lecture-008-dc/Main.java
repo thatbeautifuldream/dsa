@@ -120,6 +120,7 @@ public class Main {
     // Scanner class is used to take input from the user
 
     public static void userInput() {
+        Scanner sc = new Scanner(System.in); // making object 'sc' of Scanner class
         System.out.println("Enter your name : ");
         String name = sc.nextLine(); // taking string input from Scanner
         System.out.println("Enter your age : ");
@@ -130,11 +131,11 @@ public class Main {
         double weight = sc.nextDouble(); // taking double input from Scanner
         System.out.println(
                 "Hi, " + name + "! You are " + age + " years old, " + height + " cm tall and " + weight + " kg heavy.");
+        sc.close();
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // making object 'sc' of Scanner class
-        ageCheck();
+        userInput();
         sc.close();
     }
 }
