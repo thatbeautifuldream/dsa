@@ -174,6 +174,11 @@ public class Main {
         // do while loop is used to iterate over a block of code at least once
         // while a specified condition is true
 
+        // for loop :
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hello");
+        }
+
     }
 
     public static void main(String[] args) {
