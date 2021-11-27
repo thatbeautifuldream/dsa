@@ -123,10 +123,22 @@ public class Main {
         Scanner sc = new Scanner(System.in); // making object 'sc' of Scanner class
         System.out.println("Enter your name : ");
         String name = sc.nextLine(); // taking string input from Scanner
+
+        // .next() : used to take input from the user util given space
+        // .nextLine() : used to take input from the user util given new line
+
         System.out.println("Enter your age : ");
         int age = sc.nextInt(); // taking integer input from Scanner
+
+        // .nextInt() : used to take integer input from Scanner util given space or new
+        // line
+
         System.out.println("Enter your height : ");
         double height = sc.nextDouble(); // taking double input from Scanner
+
+        // .nextDouble() : used to take double input from Scanner util given space or
+        // new line
+
         System.out.println("Enter your weight : ");
         double weight = sc.nextDouble(); // taking double input from Scanner
         System.out.println(
