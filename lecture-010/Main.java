@@ -1,4 +1,6 @@
+import java.util.Scanner;
 public class Main {
+
     public static int anyBaseAddition(int n, int m, int b) {
         int ans = 0, pow = 1, carry = 0;
 
