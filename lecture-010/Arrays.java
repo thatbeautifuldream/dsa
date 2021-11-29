@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Arrays {
 
     public static void takeInput(int[] arr) {
+        Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scn.nextInt(); // setter
             scn.close();
@@ -48,9 +49,9 @@ public class Arrays {
     // understanding arrays in java
     public static void main(String[] args) {
         // declaring an array
-        int[] numbers = new int[5];
+        // int[] numbers = new int[5];
         // declaring and initializing an array in one line
-        int[] numbers2 = { 1, 2, 3, 4, 5 };
+        // int[] numbers2 = { 1, 2, 3, 4, 5 };
     }
 
 }
