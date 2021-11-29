@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 public class Main {
 
     public static int anyBaseAddition(int n, int m, int b) {
@@ -97,3 +97,7 @@ public class Main {
         System.out.println(getProduct(b, n, m));
     }
 }
+
+// To do :
+// 1. anybase substraction
+// 2. anybase multiplication
