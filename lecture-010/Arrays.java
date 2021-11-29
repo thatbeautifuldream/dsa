@@ -46,6 +46,24 @@ public class Arrays {
         return min;
     }
 
+    public static void firstIndex(int[] arr, int data) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == data) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+
+    public static void lastIndex(int[] arr, int data) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] == data) {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+
     // understanding arrays in java
     public static void main(String[] args) {
         // declaring an array
@@ -55,3 +73,5 @@ public class Arrays {
     }
 
 }
+// Home Work :
+// make : firstIndex(), lastIndex() of array
