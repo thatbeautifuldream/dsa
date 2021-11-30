@@ -48,6 +48,8 @@ Sample Output
 36
 ```
 
+## Solution :
+
 ```java
 import java.util.Scanner;
 
