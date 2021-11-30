@@ -1,6 +1,14 @@
-import java.util.Scanner;
+# Bar Chart
 
-public class Main {
+> 1.  You are given a number n, representing the size of array a.
+> 2.  You are given n numbers, representing elements of array a.
+> 3.  You are required to print a bar chart representing value of arr a.
+
+```java
+import java.io.*;
+import java.util.*;
+
+public class Main{
 
     public static int maximum(int[] arr) {
         int max = Integer.MIN_VALUE;
@@ -11,25 +19,6 @@ public class Main {
             }
         }
         return max;
-    }
-
-    public static int minimum(int[] arr) {
-        int min = Integer.MAX_VALUE;
-        // min = (int)1e8;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-        }
-        return min;
-    }
-
-    // span of array : max - min
-    // diffrence of max and min
-    public static int spanOfArray(int[] arr) {
-        int max = maximum(arr);
-        int min = minimum(arr);
-        return (max - min);
     }
 
     public static void printBars(int[] arr, int n) {
@@ -46,15 +35,16 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
         printBars(arr, n);
-        sc.close();
     }
 
 }
+```
