@@ -4,4 +4,4 @@
 
 [`Lecture Codes`](https://github.com/rajneeshkumar146/pepcoding-Batches/tree/master/2021/FJP3/) [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation) [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup) [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
 
-![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?language=1&name=1&theme=Dark)
+![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
