@@ -28,7 +28,7 @@ public class Arrays {
 
     public static int maximum(int[] arr) {
         int max = Integer.MIN_VALUE;
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
             }
@@ -38,7 +38,7 @@ public class Arrays {
 
     public static int minimum(int[] arr) {
         int min = Integer.MAX_VALUE;
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
                 min = arr[i];
             }
