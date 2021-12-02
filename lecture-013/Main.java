@@ -28,6 +28,22 @@ public class Main {
         return ans;
     }
 
+    /*
+     * Common misconceptions : subarray, subsequence
+     * Subarray : continious segment of an array
+     * Its unidirectional
+     * Total numbers of subarray : n * (n - 1) / 2
+     * 
+     * Subsequence : It may or may not be continious segment of an array
+     * Its unidirectional
+     * 
+     * NOTE : "All subarrays are subsequences!"
+     */
+
+    public static void subarray(int[] arr) {
+
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
