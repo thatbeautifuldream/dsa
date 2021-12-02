@@ -36,12 +36,22 @@ public class Main {
      * 
      * Subsequence : It may or may not be continious segment of an array
      * Its unidirectional
+     * Can be analysed by writing binary numbers of length n
+     * Total numbers of subsequence : 2 ^ n
+     * 
      * 
      * NOTE : "All subarrays are subsequences!"
      */
 
     public static void subarray(int[] arr) {
-
+        for (int start = 0; start < arr.length; start++) {
+            for (int end = start; end < arr.length; end++) {
+                for (int i = start; i <= end; i++) {
+                    System.out.print(arr[i] + "\t");
+                }
+                System.out.println();
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -57,11 +67,11 @@ public class Main {
         // System.out.print(arr[i] + " ");
         // }
 
-        int[] ans = inverse(arr);
-        for (int i = 0; i < n; i++) {
-            System.out.print(ans[i] + " ");
-        }
-
+        // int[] ans = inverse(arr);
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(ans[i] + " ");
+        // }
+        subarray(arr);
         sc.close();
     }
 }
