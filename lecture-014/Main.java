@@ -97,7 +97,9 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         int target = sc.nextInt();
-        System.out.println(binarySearch(arr, target));
+        // System.out.println(binarySearch(arr, target));
+        // brokenEconomy(arr, target);
+        firstLastIndex(arr, target);
         sc.close();
     }
 }
