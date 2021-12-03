@@ -23,7 +23,7 @@ public class Main {
 
     public static int binarySearch(int[] arr, int target) {
         int start = 0, end = arr.length - 1;
-        while (start < end) {
+        while (start <= end) {
             int mid = start + (end - start) / 2;
             if (target == arr[mid]) {
                 return mid;
@@ -34,6 +34,29 @@ public class Main {
             }
         }
         return -1;
+    }
+
+    // Broken Economy : ceil and floor
+
+    public static void brokenEconomy(int[] arr, int target) {
+        int start = 0, end = arr.length - 1, ceil = Integer.MAX_VALUE, floor = Integer.MIN_VALUE;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (target > arr[mid]) {
+                start = mid + 1;
+                floor = arr[mid];
+            } else if (target < arr[mid]) {
+                end = mid - 1;
+                ceil = arr[mid];
+            } else {
+                ceil = arr[mid];
+                floor = arr[mid];
+                return;
+            }
+        }
+        System.out.println(ceil);
+        System.out.println(floor);
+
     }
 
     public static void main(String[] args) {
