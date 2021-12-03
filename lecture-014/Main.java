@@ -56,7 +56,37 @@ public class Main {
         }
         System.out.println(ceil);
         System.out.println(floor);
+    }
 
+    // First and last index
+    public static void firstLastIndex(int[] arr, int d) {
+        int start = 0, end = arr.length, fi = -1, li = -1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (d < arr[mid]) {
+                end = mid - 1;
+            } else if (d > arr[mid]) {
+                start = mid + 1;
+            } else {
+                li = mid;
+                start = mid + 1;
+            }
+        }
+        start = 0;
+        end = arr.length;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (d < arr[mid]) {
+                end = mid - 1;
+            } else if (d > arr[mid]) {
+                start = mid + 1;
+            } else {
+                fi = mid;
+                end = mid - 1;
+            }
+        }
+        System.out.println(fi);
+        System.out.println(li);
     }
 
     public static void main(String[] args) {
