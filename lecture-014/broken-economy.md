@@ -31,7 +31,7 @@ import java.util.*;
 
 public class Main{
 
-public static void binarySearch(int[] arr, int target) {
+public static void brokenEconomy(int[] arr, int target) {
         int start = 0, end = arr.length - 1, ceil = Integer.MAX_VALUE, floor = Integer.MIN_VALUE;
         while (start <= end) {
             int mid = start + (end - start) / 2;
@@ -61,7 +61,7 @@ public static void main(String[] args) throws Exception {
             arr[i] = sc.nextInt();
         }
         int d = sc.nextInt();
-        binarySearch(arr, d);
+        brokenEconomy(arr, d);
         sc.close();
  }
 
