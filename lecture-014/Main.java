@@ -51,7 +51,7 @@ public class Main {
             } else {
                 ceil = arr[mid];
                 floor = arr[mid];
-                return;
+                break;
             }
         }
         System.out.println(ceil);

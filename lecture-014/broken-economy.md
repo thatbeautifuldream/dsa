@@ -46,7 +46,7 @@ public static void brokenEconomy(int[] arr, int target) {
             else {
                 ceil = arr[mid];
                 floor = arr[mid];
-                return;
+                break;
             }
         }
         System.out.println(ceil);
