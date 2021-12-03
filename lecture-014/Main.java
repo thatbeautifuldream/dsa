@@ -103,3 +103,5 @@ public class Main {
         sc.close();
     }
 }
+
+// Practice resource : https://codingbat.com/java
