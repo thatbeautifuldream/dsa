@@ -131,23 +131,32 @@ public class Main {
         // }
         // print2DArray(arr);
 
-        int n1 = sc.nextInt();
-        int m1 = sc.nextInt();
-        int[][] arr1 = new int[n1][m1];
-        for (int i = 0; i < arr1.length; i++) {
-            for (int j = 0; j < arr1[i].length; j++) {
-                arr1[i][j] = sc.nextInt();
+        // int n1 = sc.nextInt();
+        // int m1 = sc.nextInt();
+        // int[][] arr1 = new int[n1][m1];
+        // for (int i = 0; i < arr1.length; i++) {
+        // for (int j = 0; j < arr1[i].length; j++) {
+        // arr1[i][j] = sc.nextInt();
+        // }
+        // }
+        // int n2 = sc.nextInt();
+        // int m2 = sc.nextInt();
+        // int[][] arr2 = new int[n2][m2];
+        // for (int i = 0; i < arr2.length; i++) {
+        // for (int j = 0; j < arr2[i].length; j++) {
+        // arr2[i][j] = sc.nextInt();
+        // }
+        // }
+        // matrixMultiplication(arr1, arr2);
+
+        int n = sc.nextInt();
+        int[][] arr = new int[n][n];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = sc.nextInt();
             }
         }
-        int n2 = sc.nextInt();
-        int m2 = sc.nextInt();
-        int[][] arr2 = new int[n2][m2];
-        for (int i = 0; i < arr2.length; i++) {
-            for (int j = 0; j < arr2[i].length; j++) {
-                arr2[i][j] = sc.nextInt();
-            }
-        }
-        matrixMultiplication(arr1, arr2);
+        waveArray(arr);
         sc.close();
     }
 }
