@@ -1,4 +1,5 @@
-# FJP Class Notes & Code Snippets
+# FJP Class Notes & Code Snippets 
+`🌟 The repository if you found it usefull`
 
 >  [`First Job Program`](https://www.pepcoding.com/nados-fjp) 🔗 A program targeted For 3rd/4th year college students preparing for their first job.
 
