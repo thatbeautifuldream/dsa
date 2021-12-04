@@ -1,7 +1,6 @@
 # 2D Array Demo
 
 ```java
-
 import java.io.*;
 import java.util.*;
 
