@@ -57,14 +57,55 @@ public class Main {
         }
     }
 
+    // 2D Array : 2D Array is a collection of 1D arrays
+    // [[1,2],[3,4],[5,6]] -> 2D Array of dimensions : 3x2
+    /*
+     * Memory Management :
+     * 1D Array (contains base address of 1st element of each column)
+     * | | ---> [][]
+     * | | ---> [][]
+     * | | ---> [][]
+     * 
+     * [0,0][0,1][0,2]
+     * [1,0][1,1][1,2]
+     * [2,0][2,1][2,2]
+     */
+    // arr.length -> number of rows
+    // arr[i].length -> number of columns
+    // arr[i][j] -> access element at row i and column j
+    // arr[i][j] = value -> set element at row i and column j to value
+    // arr[i][j] = null -> set element at row i and column j to null
+    /*
+     * Syntax
+     * 1D array : int[] arr = new int[10];
+     * 2D array : int[][] arr = new int[10][10];
+     * Traverse 2D array :
+     * for (int i = 0; i < arr.length; i++) {
+     * for (int j = 0; j < arr[i].length; j++) {
+     * System.out.println(arr[i][j]);
+     * }
+     * }
+     */
+
+    public static void print2DArray(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
-        }
-        printSubsets(arr);
+        // int[] arr = new int[n];
+        // for (int i = 0; i < arr.length; i++) {
+        // arr[i] = sc.nextInt();
+        // }
+        // printSubsets(arr);
+        int[][] arr = new int[][] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+        print2DArray(arr);
         sc.close();
     }
 }
