@@ -81,22 +81,22 @@ public class Main {
         int minrow = 0, maxrow = arr.length - 1, mincol = 0, maxcol = arr[0].length - 1; // each for 4 loops
         int count = 0, total = row * col; // total number of elements in a matrix is row * col
         while (count < total) { // loop till count is less than total
-            for (int i = minrow; i <= maxrow && count < total; i++) {
+            for (int i = minrow; i <= maxrow && count < total; i++) { // check : count < total to assure that we don't print more than total elements
                 System.out.println(arr[i][mincol]);
                 count++; // increment count for every element printed
             }
             mincol++; // change : increment mincol after printing this row
-            for (int i = mincol; i <= maxcol && count < total; i++) {
+            for (int i = mincol; i <= maxcol && count < total; i++) { // check : count < total to assure that we don't print more than total elements
                 System.out.println(arr[maxrow][i]);
                 count++;
             }
             maxrow--; // change : decrement maxrow after printing this column
-            for (int i = maxrow; i >= minrow && count < total; i--) {
+            for (int i = maxrow; i >= minrow && count < total; i--) { // check : count < total to assure that we don't print more than total elements
                 System.out.println(arr[i][maxcol]);
                 count++;
             }
             maxcol--; // change : decrement maxcol after printing this row
-            for (int i = maxcol; i >= mincol && count < total; i--) {
+            for (int i = maxcol; i >= mincol && count < total; i--) { // check : count < total to assure that we don't print more than total elements
                 System.out.println(arr[minrow][i]);
                 count++;
             }
