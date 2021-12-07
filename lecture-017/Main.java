@@ -73,9 +73,8 @@ public class Main {
         // }
 
         // alternative appraoch : abstraction
-        for (int[] d : arr) { // for each loop : for each 1d array
+        for (int[] d : arr) // for each loop : for each 1d array
             reverse1d(d);
-        }
     }
 
     public static void rotateBy90(int[][] arr, int n) {
