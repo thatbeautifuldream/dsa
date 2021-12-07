@@ -67,7 +67,8 @@ public class Main {
         // starting from top left corner
         int i = 0, j = 0, dir = 0;
         while (true) {
-            dir += arr[i][j];
+            // let four directions denoted by : east(0), south(1), west(2), north(3)
+            dir += arr[i][j]; // update direction value from the binary matrix
             dir %= 4;
             // let initial cell be (i,j)
             if (dir == 0) { // east (i,j+1)
