@@ -47,17 +47,34 @@ public class Main {
         }
     }
 
+    public static void reverse1d(int[] arr) {
+        int li = 0;
+        int ri = arr.length - 1;
+        while (li < ri) {
+            int temp = arr[li];
+            arr[li] = arr[ri];
+            arr[ri] = temp;
+            li++;
+            ri--;
+        }
+    }
+
     public static void reverseCols(int[][] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            int li = 0;
-            int ri = arr[0].length - 1;
-            while (li < ri) {
-                int temp = arr[i][li];
-                arr[i][li] = arr[i][ri];
-                arr[i][ri] = temp;
-                li++;
-                ri--;
-            }
+        // for (int i = 0; i < arr.length; i++) {
+        // int li = 0;
+        // int ri = arr[0].length - 1;
+        // while (li < ri) {
+        // int temp = arr[i][li];
+        // arr[i][li] = arr[i][ri];
+        // arr[i][ri] = temp;
+        // li++;
+        // ri--;
+        // }
+        // }
+
+        // alternative appraoch : abstraction
+        for (int[] d : arr) { // for each loop : for each 1d array
+            reverse1d(d);
         }
     }
 
