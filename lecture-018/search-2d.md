@@ -54,7 +54,7 @@ import java.util.*;
 public class Main {
 
     public static void search2D(int[][] arr, int x) {
-        // starting : top - right
+        // starting : top - right (optimal approach) 
         int n = arr.length; // rows
         int i = 0;
         int j = n - 1;
