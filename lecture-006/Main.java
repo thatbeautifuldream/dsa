@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Patterns {
+public class Main {
 
     public static void pattern11(int num) {
         int nst = 1;

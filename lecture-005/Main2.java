@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pattern {
+public class Main2 {
 
     public static void printMatrix(int rows) {
         for (int r = 1; r <= rows; r++) {

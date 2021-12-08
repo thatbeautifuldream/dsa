@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pattern {
+public class Main {
 
     public static void pattern1(int n) {
         int nsp = n, nst = n;
@@ -82,7 +82,6 @@ public class Pattern {
             System.out.println();
         }
     }
-    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

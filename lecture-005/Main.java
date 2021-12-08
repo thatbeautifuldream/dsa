@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pattern {
+public class Main {
 
     public static void pattern6(int n) { // hollow diamond
         if (n % 2 == 0) {

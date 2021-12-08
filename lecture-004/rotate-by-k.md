@@ -1,3 +1,6 @@
+# Rotate by K
+
+```java
 import java.util.Scanner;
 
 public class RotateByK {
@@ -35,3 +38,4 @@ public class RotateByK {
         sc.close();
     }
 }
+```
