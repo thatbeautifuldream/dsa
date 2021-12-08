@@ -1,3 +1,6 @@
+# Benjamin Bulbs
+
+```java
 import java.util.Scanner;
 
 public class BenjaminBulbs {
@@ -16,3 +19,4 @@ public class BenjaminBulbs {
         }
     }
 }
+```

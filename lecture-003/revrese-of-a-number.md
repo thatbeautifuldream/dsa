@@ -1,3 +1,6 @@
+# Reverse of a Number
+
+```java
 import java.util.Scanner;
 
 public class ReverseOfNumber {
@@ -19,3 +22,4 @@ public class ReverseOfNumber {
         return res;
     }
 }
+```

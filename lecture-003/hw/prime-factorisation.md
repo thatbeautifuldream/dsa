@@ -1,3 +1,6 @@
+# Prime Factorisation
+
+```java
 import java.util.Scanner;
 
 // prime factorisation of number
@@ -16,3 +19,4 @@ public class PrimeFactorisation {
         }
     }
 }
+```

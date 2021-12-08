@@ -1,3 +1,6 @@
+# Pythagorian Tripplets
+
+```java
 import java.util.*;
 
 // print if given tripplet is a pythagorean triplet
@@ -20,3 +23,4 @@ public class PythagoreanTriplets {
     }
 
 }
+```

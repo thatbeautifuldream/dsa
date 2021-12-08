@@ -1,3 +1,6 @@
+# GCM & LCM
+
+```java
 import java.util.Scanner;
 
 public class GcdLcm {
@@ -22,3 +25,4 @@ public class GcdLcm {
         sc.close();
     }
 }
+```

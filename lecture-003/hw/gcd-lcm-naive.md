@@ -1,3 +1,6 @@
+# GCD LCM (Naive Solution)
+
+```java
 import java.util.Scanner;
 
 public class GcdLcmNaive {
@@ -21,3 +24,4 @@ public class GcdLcmNaive {
         System.out.println(lcm);
     }
 }
+```
