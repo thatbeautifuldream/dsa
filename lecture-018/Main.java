@@ -100,20 +100,50 @@ public class Main {
         from1Dto2D(oneD, arr, s);
     }
 
+    public static void search2D(int[][] arr, int x) {
+        // starting : top - right
+        int n = arr.length; // rows
+        int i = 0;
+        int j = n - 1;
+        while (j >= 0 && i < n) {
+            if (arr[i][j] == x) {
+                System.out.println(i);
+                System.out.println(j);
+                return;
+            }
+            if (arr[i][j] > x) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+        System.out.println("Not Found");
+    }
+
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
+        // int n = scn.nextInt();
+        // int m = scn.nextInt();
+        // int[][] arr = new int[n][m];
+        // for (int i = 0; i < n; i++) {
+        // for (int j = 0; j < m; j++) {
+        // arr[i][j] = scn.nextInt();
+        // }
+        // }
+        // int s = scn.nextInt();
+        // int r = scn.nextInt();
+        // ringRotate(arr, s, r);
+        // display(arr);
         int n = scn.nextInt();
-        int m = scn.nextInt();
-        int[][] arr = new int[n][m];
+        int[][] arr = new int[n][n];
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+            for (int j = 0; j < n; j++) {
                 arr[i][j] = scn.nextInt();
             }
         }
-        int s = scn.nextInt();
-        int r = scn.nextInt();
-        ringRotate(arr, s, r);
-        display(arr);
+        int x = scn.nextInt();
+        search2D(arr, x);
+        scn.close();
     }
 
     public static void display(int[][] arr) {
