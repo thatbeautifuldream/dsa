@@ -1,3 +1,7 @@
+#Print Primes
+
+```java
+
 import java.util.Scanner;
 
 public class Primes {
@@ -18,4 +22,5 @@ public class Primes {
         else{
             System.out.println(n + " is not a prime number.");
         }
-}
+}``
+`

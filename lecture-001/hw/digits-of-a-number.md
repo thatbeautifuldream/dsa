@@ -1,5 +1,9 @@
+# Digits of a Number
+
+```java
 import java.util.*;
-public class DigitsOfaNumber {
+
+public class Main {
     public static void main(String[] args) {
       // write your code here
       Scanner sc = new Scanner(System.in);
@@ -13,3 +17,4 @@ public class DigitsOfaNumber {
         }
      }
 }
+```

@@ -1,6 +1,9 @@
+# Primes
+
+```java
 import java.util.Scanner;
 
-public class Prime {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int lo = sc.nextInt(), hi = sc.nextInt();
@@ -20,3 +23,4 @@ public class Prime {
         return true;
     }
 }
+```

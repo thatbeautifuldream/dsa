@@ -1,6 +1,9 @@
+# Count Digits of a Number
+
+```java
 import java.util.*;
 
-public class CountDigits {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -12,3 +15,4 @@ public class CountDigits {
         System.out.println(d);
     }
 }
+```

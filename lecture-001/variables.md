@@ -1,5 +1,6 @@
-public class variables {
-    public static void main(String[] args){
+```java
+public class Main {
+    public static void main(String[] args) {
         int a = 10;
         int b = 20;
         int c = 30;
@@ -9,3 +10,4 @@ public class variables {
         System.out.println("c = " + c);
     }
 }
+```

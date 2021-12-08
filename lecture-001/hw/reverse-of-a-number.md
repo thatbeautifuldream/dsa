@@ -1,3 +1,6 @@
+# Print reverse of a number
+
+```java
 public class ReverseOfaNumber {
     public static void main(String[] args) {
         int num = 12345;
@@ -9,4 +12,4 @@ public class ReverseOfaNumber {
             num = num / 10;
         }
     }
-}
+}```

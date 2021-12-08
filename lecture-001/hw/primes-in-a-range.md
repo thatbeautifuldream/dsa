@@ -1,6 +1,9 @@
+# Print all Primes in the range given
+
+```java
 import java.util.Scanner;
 
-public class PrimesInaRange {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int start = scanner.nextInt();
@@ -24,3 +27,4 @@ public class PrimesInaRange {
         return true;
     }
 }
+```

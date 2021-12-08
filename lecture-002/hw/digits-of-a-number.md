@@ -1,9 +1,12 @@
+# Digits of a number
+
+```java
 import java.util.Scanner;
 
 // 1. You've to display the digits of a number.
 // 2. Take as input "n", the number for which digits have to be displayed.
 // 3. Print the digits of the number line-wise.
-public class DigitsOfaNumber {
+public class Main {
     public static void digitsOfNumber(int num) {
         int len = countDigitOfNumber(num) - 1;
         while (len >= 0) {
@@ -30,3 +33,4 @@ public class DigitsOfaNumber {
         sc.close();
     }
 }
+```
