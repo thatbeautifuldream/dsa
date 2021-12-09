@@ -33,7 +33,7 @@ public class Main {
                     min = arr[i][j];
                 }
             }
-
+            // complete (home-work)
         }
 
     }
@@ -81,10 +81,10 @@ public class Main {
     // string passed in
     // 18. s.endsWith("Hello") // returns true if the string ends with the string
     // passed in
-    // Input :
+    // Taking Input :
     // 1. Scanner sc = new Scanner(System.in)
     // 2. String s = sc.nextLine()
-    // Output :
+    // String Output :
     // 1. System.out.println(s)
     // 2. System.out.println(s.length())
     // 3. System.out.println(s.substring(0, 5))
