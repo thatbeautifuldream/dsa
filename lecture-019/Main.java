@@ -120,9 +120,41 @@ public class Main {
         System.out.println(s4);
 
         // taking a char input :
-        char ch1 = sc.next().charAt(0);
-        System.out.println(ch1); // prints the first character of the string
-        
+        // char ch1 = sc.next().charAt(0);
+        // System.out.println(ch1); // prints the first character of the string
+
+        String a = "Hello";
+        String b = "Hello";
+        String c = new String("Hello");
+        if (a == b) {
+            System.out.println("Equal");
+        } else {
+            System.out.println("Not Equal");
+        }
+        if (a == c) { // == is used to compare the references (address)
+            System.out.println("Equal");
+        } else {
+            System.out.println("Not Equal");
+        }
+        if (a.equals(c)) { // check character by character (checks content)
+            System.out.println("Equal");
+        } else {
+            System.out.println("Not Equal");
+        }
+        // NOTE :
+        // c = b // this assigns value of b in c from same address of b in heap
+        // a = a + b // this assigns value of a + b in a in a new address in heap
+        // since adding in same address is not allowed also costly in memory
+        // old address gets inaccesable and gets collected by garbage collector
+
+        // substring :
+        String s5 = "Hello World";
+        String s6 = s5.substring(0, 5); // substring from index 0 to index 4
+        // Note : substring gets created at a new memory address and gets assigned to s6
+        String s7 = s5.substring(5); // substring from index 5 to end
+        // Note : substring gets created at a new memory address and gets assigned to s7
+        System.out.println(s6); // prints Hello
+        System.out.println(s7); // prints World
     }
 
     public static void main(String[] args) throws Exception {
