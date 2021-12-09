@@ -83,7 +83,8 @@ public class Main {
     // passed in
     // Taking Input :
     // 1. Scanner sc = new Scanner(System.in)
-    // 2. String s = sc.nextLine()
+    // 2. String s = sc.nextLine() // takes in a string until the user hits enter
+    // 3. String s2 = sc.next() // takes in a string until the user hits space
     // String Output :
     // 1. System.out.println(s)
     // 2. System.out.println(s.length())
@@ -117,6 +118,11 @@ public class Main {
         System.out.println(s3);
         String s4 = s1.concat(s2); // concatenation using the concat method
         System.out.println(s4);
+
+        // taking a char input :
+        char ch1 = sc.next().charAt(0);
+        System.out.println(ch1); // prints the first character of the string
+        
     }
 
     public static void main(String[] args) throws Exception {
