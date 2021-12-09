@@ -170,6 +170,7 @@ public class Main {
     }
 
     public static boolean isPalindrome(String s) {
+        // two pointers
         int i = 0;
         int j = s.length() - 1;
         while (i < j) {
