@@ -48,6 +48,7 @@ public class Main {
     public static void stringTime() {
         // String vs StringBuilder :
         // String :
+        // String s = new String();
         String s = "";
         int st = (int) System.currentTimeMillis(); // returns a long value so we typecast it to int
         for (int i = 0; i < 10000; i++) {
@@ -65,13 +66,30 @@ public class Main {
         System.out.println("StringBuilder : " + (etb - stb));
     }
 
+    public static String stringToggle(String s) {
+        // Toggle the input and print using string builder
+        StringBuilder ans = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) > 'a' && s.charAt(i) < 'z') {
+                char uc = (char) (s.charAt(i) + 'A' - 'a'); // convert to uppercase
+                ans.append(uc);
+            } else {
+                char lc = (char) (s.charAt(i) + 'a' - 'A'); // convert to lowercase
+                ans.append(lc);
+            }
+        }
+        return ans.toString();
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // String s = sc.nextLine();
         // System.out.println(compression1(s));
         // System.out.println(compression2(s));
         // sc.close();
-        stringTime(); // demonstrating how String Builder is faster than String
+        // stringTime(); // demonstrating how String Builder is faster than String
+        String s = sc.nextLine();
+        System.out.println(stringToggle(s));
         sc.close();
     }
 }
