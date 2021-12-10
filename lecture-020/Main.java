@@ -81,6 +81,18 @@ public class Main {
         return ans.toString();
     }
 
+    public static String stringDiffrence(String s) {
+        // String With Difference Of Every Two Consecutive Characters
+        StringBuilder ans = new StringBuilder();
+        ans.append(s.charAt(0));
+        for (int i = 1; i < s.length(); i++) {
+            int diff = (int) (s.charAt(i) - s.charAt(i - 1));
+            ans.append(diff);
+            ans.append(s.charAt(i));
+        }
+        return ans.toString();
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // String s = sc.nextLine();
@@ -89,7 +101,8 @@ public class Main {
         // sc.close();
         // stringTime(); // demonstrating how String Builder is faster than String
         String s = sc.nextLine();
-        System.out.println(stringToggle(s));
+        // System.out.println(stringToggle(s));
+        System.out.println(stringDiffrence(s));
         sc.close();
     }
 }
