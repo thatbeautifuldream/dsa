@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -33,11 +33,45 @@ public class Main {
         return ans;
     }
 
+    // String Builder :
+    // Theory :
+    // 1. StringBuilder is a mutable sequence of characters.
+    // 2. StringBuilder is not thread-safe.
+    // 3. StringBuilder is not synchronized.
+    // String vs StringBuilder :
+    // 1. String is immutable.
+    // 2. StringBuilder is mutable.
+    // 3. StringBuilder is thread-safe.
+    // 4. StringBuilder is synchronized.
+    // 5. StringBuilder is faster than String.
+
+    public static void stringTime() {
+        // String vs StringBuilder :
+        // String :
+        String s = "";
+        int st = (int) System.currentTimeMillis(); // returns a long value so we typecast it to int
+        for (int i = 0; i < 10000; i++) {
+            s += i;
+        }
+        int et = (int) System.currentTimeMillis();
+        System.out.println("String : " + (et - st));
+        // String Builder :
+        StringBuilder sb = new StringBuilder();
+        int stb = (int) System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++) {
+            sb.append(i);
+        }
+        int etb = (int) System.currentTimeMillis();
+        System.out.println("StringBuilder : " + (etb - stb));
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        System.out.println(compression1(s));
-        System.out.println(compression2(s));
+        // String s = sc.nextLine();
+        // System.out.println(compression1(s));
+        // System.out.println(compression2(s));
+        // sc.close();
+        stringTime(); // demonstrating how String Builder is faster than String
         sc.close();
     }
 }
