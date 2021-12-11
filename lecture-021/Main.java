@@ -97,16 +97,41 @@ public class Main {
             }
         }
     }
+    // ------------------------------------------------------------------------------------------
+    // Recursion : "A function that calls itself"
+    // Recursion is a process of calling a function from within the function
+    // example :
+
+    public static int factorial(int n) {
+        if (n == 1) { // base case
+            return 1;
+        }
+        return n * factorial(n - 1); // recursive call
+    }
+
+    // Well now the question is, Why recursion?
+    // Work gets divided into smaller pieces and then the pieces are called
+    // recursively (easier for bigger problems)
+
+    public static void printDecreasing(int n) {
+        if (n == 0) {
+            return;
+        }
+        System.out.println(n);
+        printDecreasing(n - 1);
+    }
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        // int n = scn.nextInt();
+        // ArrayList<Integer> al = new ArrayList<>();
+        // for (int i = 0; i < n; i++) {
+        // al.add(scn.nextInt());
+        // }
+        // removePrimes(al);
+        // System.out.println(al);
         int n = scn.nextInt();
-        ArrayList<Integer> al = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            al.add(scn.nextInt());
-        }
-        removePrimes(al);
-        System.out.println(al);
+        printDecreasing(n);
         scn.close();
     }
 
