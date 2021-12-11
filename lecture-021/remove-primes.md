@@ -34,7 +34,9 @@ public class Main {
         }
         return true;
     }
-
+    // reverse traversing the list since we are removing elements and
+    // we don't want to skip any elements
+    // since it will change indices after removal
     public static void removePrimes(ArrayList<Integer> al) {
         for (int i = al.size()-1; i >= 0; i--) {
             if (isPrime(al.get(i))) {
