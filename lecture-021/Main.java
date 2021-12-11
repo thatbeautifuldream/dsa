@@ -114,25 +114,28 @@ public class Main {
     // recursively (easier for bigger problems)
 
     public static void printDecreasing(int n) {
-        if (n == 0) {
+        if (n == 0) { // base case
             return;
         }
-        System.out.println(n);
-        printDecreasing(n - 1);
+        System.out.println(n); // body
+        printDecreasing(n - 1); // recursive call
     }
 
+    // Recursion : stack (LIFO)
+    
+
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        // int n = scn.nextInt();
+        Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
         // ArrayList<Integer> al = new ArrayList<>();
         // for (int i = 0; i < n; i++) {
-        // al.add(scn.nextInt());
+        // al.add(sc.nextInt());
         // }
         // removePrimes(al);
         // System.out.println(al);
-        int n = scn.nextInt();
+        int n = sc.nextInt();
         printDecreasing(n);
-        scn.close();
+        sc.close();
     }
 
 }
