@@ -28,7 +28,6 @@ public class Main {
     // Sorting : Collections.disjoint(list1, list2);
     // Sorting : Collections.min(list);
     // Sorting : Collections.max(list);
-    public static Scanner sc = new Scanner(System.in); // Scanner object Global
 
     public static void arrayListDemo() {
         int[] data = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -79,7 +78,33 @@ public class Main {
         System.out.println("ArrayList : " + list2); // prints array list beautifully
     }
 
-    public static void main(String[] args) {
-        arrayListDemo();
+    public static boolean isPrime(int n) {
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
+
+    public static void removePrimes(ArrayList<Integer> al) {
+        for (int i = al.size() - 1; i >= 0; i--) {
+            if (isPrime(al.get(i))) {
+                al.remove(i);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int n = scn.nextInt();
+        ArrayList<Integer> al = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            al.add(scn.nextInt());
+        }
+
+        removePrimes(al);
+        System.out.println(al);
+    }
+
 }
