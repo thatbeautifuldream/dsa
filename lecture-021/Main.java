@@ -129,6 +129,15 @@ public class Main {
         System.out.println(n);
     }
 
+    public static void printID(int n) { // print decreasing increasing digits
+        if (n == 0) {
+            return;
+        }
+        System.out.println(n);
+        printID(n - 1);
+        System.out.println(n);
+    }
+
     // Recursion : stack (LIFO)
 
     public static void main(String[] args) {
@@ -143,6 +152,7 @@ public class Main {
         int n = sc.nextInt();
         printDecreasing(n); // 5 4 3 2 1
         printIncreasing(n); // 1 2 3 4 5
+        printID(n); // 5 4 3 2 1 1 2 3 4 5
         sc.close();
     }
 
