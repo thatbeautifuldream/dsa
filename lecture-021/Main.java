@@ -121,8 +121,15 @@ public class Main {
         printDecreasing(n - 1); // recursive call
     }
 
+    public static void printIncreasing(int n) {
+        if (n == 0) {
+            return;
+        }
+        printIncreasing(n - 1);
+        System.out.println(n);
+    }
+
     // Recursion : stack (LIFO)
-    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -134,7 +141,8 @@ public class Main {
         // removePrimes(al);
         // System.out.println(al);
         int n = sc.nextInt();
-        printDecreasing(n);
+        printDecreasing(n); // 5 4 3 2 1
+        printIncreasing(n); // 1 2 3 4 5
         sc.close();
     }
 
