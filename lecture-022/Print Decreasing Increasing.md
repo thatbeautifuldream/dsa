@@ -35,7 +35,7 @@ Sample Output
 ```
 ## Notes
 
-
+![Screenshot 2021-12-13 at 10 45 05 PM](https://user-images.githubusercontent.com/28717686/145858279-6287292a-d39f-4a25-bb89-20e37ec381e0.png)
 
 ## Solution
 
