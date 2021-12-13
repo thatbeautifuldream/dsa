@@ -59,12 +59,26 @@ public class Main {
         System.out.println(n);
     }
 
+    // Factorial :
+    public static int factorial(int n) {
+        return (n == 0) ? 1 : n * factorial(n - 1);
+    }
+
+    // Factorial Dry Run :
+    // factorial(5) -> 5 * factorial(4)
+    // factorial(4) -> 4 * factorial(3)
+    // factorial(3) -> 3 * factorial(2)
+    // factorial(2) -> 2 * factorial(1)
+    // factorial(1) -> 1 * factorial(0)
+    // factorial(0) -> 1
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        printDecreasing(n);
-        printIncreasing(n);
-        printDI(n);
+        // printDecreasing(n);
+        // printIncreasing(n);
+        // printDI(n);
+        System.out.println(factorial(n));
         sc.close();
     }
 }
