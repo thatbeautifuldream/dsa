@@ -49,10 +49,22 @@ public class Main {
     // printIncreasing(4) -> prints 1 2 3 4 and pops up
     // printIncreasing(5) -> prints 1 2 3 4 5 and pops up
 
+    // Print Decreasing Increasing :
+    public static void printDI(int n) {
+        if (n == 0) {
+            return;
+        }
+        System.out.println(n);
+        printDI(n - 1);
+        System.out.println(n);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printDecreasing(n);
+        printIncreasing(n);
+        printDI(n);
         sc.close();
     }
 }
