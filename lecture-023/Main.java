@@ -10,6 +10,16 @@ public class Main {
         return (p == 0) ? 1 : (p % 2 == 0) ? powerLogarithmic(n * n, p / 2) : n * powerLogarithmic(n * n, p / 2);
     }
 
+    public static void pzz(int n) {
+        if (n == 0)
+            return;
+        System.out.print(n + " "); // pre
+        pzz(n - 1);
+        System.out.print(n + " "); // in
+        pzz(n - 1);
+        System.out.print(n + " "); // post
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
