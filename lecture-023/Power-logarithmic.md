@@ -22,6 +22,11 @@ Sample Input
 Sample Output
 32
 ```
+## Note
+
+![linear](https://user-images.githubusercontent.com/28717686/146039769-009a43e8-62db-4c2c-8bbc-bb171aed22ff.png)
+![breakdown](https://user-images.githubusercontent.com/28717686/146039783-1b4e3399-5615-48ec-a19a-50761211f41a.png)
+![relation](https://user-images.githubusercontent.com/28717686/146039799-89a53c7b-5cdf-4008-b7dd-5e517d03fa9e.png)
 
 ## Solution
 
