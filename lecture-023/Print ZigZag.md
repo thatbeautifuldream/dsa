@@ -28,6 +28,10 @@ Sample Output
 3 2 1 1 1 2 1 1 1 2 3 2 1 1 1 2 1 1 1 2 3
 ```
 
+## Notes
+
+![Screenshot 2021-12-14 at 11 58 45 PM](https://user-images.githubusercontent.com/28717686/146058281-d86e617d-b92a-4c53-8f5c-f99ab5739440.png)
+
 
 ## Solution
 
