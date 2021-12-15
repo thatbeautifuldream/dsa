@@ -22,6 +22,14 @@ public class Main {
         displayArray(a, i + 1);
     }
 
+    public static void dar(int[] a, int i) {
+        if (i == a.length) {
+            return;
+        }
+        dar(a, i + 1);
+        System.out.println(a[i]);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -34,6 +42,7 @@ public class Main {
             a[i] = sc.nextInt();
         }
         displayArray(a, 0);
+        dar(a, 0); // display array reverse
         sc.close();
     }
 }
