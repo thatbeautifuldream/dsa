@@ -42,9 +42,15 @@ Sample Output
 1[10 -> 11]
 ```
 
+## Notes
+
+![Screenshot 2021-12-15 at 10 06 22 PM](https://user-images.githubusercontent.com/28717686/146226915-5e2b5fed-cfa6-4ece-bdc5-d78be81f6660.png)
+
 ## Simulation
 
+![toh](https://user-images.githubusercontent.com/28717686/146224597-95c616f3-0ad2-440a-aa32-f2a8cd237d86.gif)
 
+[`💡 Try Simulation Here`](http://towersofhanoi.info/Animate.aspx)
 
 ## Solution
 
