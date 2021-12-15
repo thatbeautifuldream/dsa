@@ -30,6 +30,19 @@ public class Main {
         System.out.println(a[i]);
     }
 
+    // max of array recursively
+    public static int maxOfArray(int[] a, int i) {
+        if (i == a.length - 1) {
+            return a[i];
+        }
+        int misa = maxOfArray(a, i + 1);
+        if (misa > a[i]) {
+            return misa;
+        } else {
+            return a[i];
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -41,8 +54,9 @@ public class Main {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
-        displayArray(a, 0);
-        dar(a, 0); // display array reverse
+        // displayArray(a, 0);
+        // dar(a, 0); // display array reverse
+        System.out.println(maxOfArray(a, 0));
         sc.close();
     }
 }
