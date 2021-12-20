@@ -57,9 +57,8 @@ public class Main {
         }
     }
 
-    // All Indices of Array using Recursion
+    // All Indices of Array using Recursion (Home-work)
     // public static int[] allIndices(int[] arr, int i, int target) {
-
     // }
 
     public static void main(String[] args) {

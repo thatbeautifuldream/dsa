@@ -82,7 +82,7 @@ public class Main {
         }
         int target = sc.nextInt();
         // System.out.println(lastIndexOfArray(arr, n - 1, target));
-        System.out.println(lastIndexOfArrayTopDown(arr, n - 1, target));
+        System.out.println(lastIndexOfArrayTopDown(arr, 0, target));
         sc.close();
     }
 }
