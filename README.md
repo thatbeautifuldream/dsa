@@ -2,13 +2,11 @@
 
 Accepted solution for `Pepcoding DSA Problem Set`.
 
-[`Official Lecture Codes`](https://github.com/rajneeshkumar146/pepcoding-Batches/tree/master/2021/FJP3/) [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation) [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup) [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
+> [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation)
+> [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup)
+> [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
 
-| Level       | Codes                                                        |
-| :---:       | :---:                                                        |
-| `Level 1`   | [:octocat:](https://github.com/thatbeautifuldream/dsa-level1)|
-| `Level 2`   | [:octocat:](https://github.com/thatbeautifuldream/dsa-level2)|
-| `Level 3`   | [:octocat:](https://github.com/thatbeautifuldream/dsa-level3)|
+>  [`L1 Solutions` :octocat:](https://github.com/thatbeautifuldream/dsa-level1)
 
 ![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
 
