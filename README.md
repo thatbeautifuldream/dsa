@@ -1,6 +1,7 @@
 # Pepcoding DSA Solutions in `Java`
 
-Accepted solution for `Pepcoding DSA Problem Set`.
+These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in Java by [(Milind Mishra)](https://milind.bio.link).
+
 
 > [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation)
 > [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup)
@@ -10,7 +11,6 @@ Accepted solution for `Pepcoding DSA Problem Set`.
 
 ![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
 
-These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in Java by [(Milind Mishra)](https://milind.bio.link).
 
 ## Level 1
 > Basics of Programming
