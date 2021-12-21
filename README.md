@@ -1,5 +1,7 @@
 # Pepcoding DSA Solutions in `Java`
 
+![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
+
 These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in Java by [(Milind Mishra)](https://milind.bio.link).
 
 
@@ -8,8 +10,6 @@ These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepc
 > [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
 
 >  [`L1 Solutions` :octocat:](https://github.com/thatbeautifuldream/dsa-level1)
-
-![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
 
 
 ## Level 1
