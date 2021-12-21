@@ -16,6 +16,7 @@ These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepc
 
 ## Level 1
 > Basics of Programming
+
 | Category              | Number Solved |
 |-----------------------|:-------------:|
 | Getting Started       |    14/14     |
