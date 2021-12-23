@@ -17,24 +17,35 @@ public class Main {
             return base;
         }
         ArrayList<String> ans = new ArrayList<String>();
-        if (n - 1 >= 0) {
-            ArrayList<String> nm1 = getStairPaths(n - 1); // get all possible paths for n-1 or 1 step
-            for (String s : nm1) {
-                ans.add("1" + s);
+        for (int i = 1; i <= 3; i++) {
+            if (n - i >= 0) {
+                ArrayList<String> rec = getStairPaths(n - i);
+                for (String s : rec) {
+                    ans.add(i + s);
+                }
             }
         }
-        if (n - 2 >= 0) {
-            ArrayList<String> nm2 = getStairPaths(n - 2); // get all possible paths for n-2 or 2 step
-            for (String s : nm2) {
-                ans.add("2" + s);
-            }
-        }
-        if (n - 3 >= 0) {
-            ArrayList<String> nm3 = getStairPaths(n - 3); // get all possible paths for n-3 or 3 step
-            for (String s : nm3) {
-                ans.add("3" + s);
-            }
-        }
+        // if (n - 1 >= 0) {
+        // ArrayList<String> nm1 = getStairPaths(n - 1); // get all possible paths for
+        // n-1 or 1 step
+        // for (String s : nm1) {
+        // ans.add("1" + s);
+        // }
+        // }
+        // if (n - 2 >= 0) {
+        // ArrayList<String> nm2 = getStairPaths(n - 2); // get all possible paths for
+        // n-2 or 2 step
+        // for (String s : nm2) {
+        // ans.add("2" + s);
+        // }
+        // }
+        // if (n - 3 >= 0) {
+        // ArrayList<String> nm3 = getStairPaths(n - 3); // get all possible paths for
+        // n-3 or 3 step
+        // for (String s : nm3) {
+        // ans.add("3" + s);
+        // }
+        // }
         return ans;
     }
 }
