@@ -37,6 +37,13 @@ public class Main {
 
     // Get Mazepath using recursion
 
+    /*
+     * Sample Input :
+     * 3 3
+     * Sample Output :
+     * [hhvv,hvhv,hvvh,vhhv,vhvh,vvhh]
+     */
+
     // sr - source row
     // sc - source column
     // dr - destination row
@@ -67,12 +74,52 @@ public class Main {
         return myAns; // returns all possible strings
     }
 
+    // Get Mazepath with Jumps using recursion
+
+    // sr - source row
+    // sc - source column
+    // dr - destination row
+    // dc - destination column
+    public static ArrayList<String> getMazePathsWithJumps(int sr, int sc, int dr, int dc) {
+        if (sr == dr && sc == dc) { // base case
+            ArrayList<String> base = new ArrayList<String>();
+            base.add(""); // empty string
+            return base;
+        }
+        ArrayList<String> myAns = new ArrayList<String>(); // to store all possible combinations
+        // Two calls : Horizontal and Vertical and Diagonal (order matters)
+
+        if (sc + 1 <= dc) { // Horizontal Call (Jump of source column + 1)
+            ArrayList<String> right = getMazePaths(sr, sc + 1, dr, dc); // get all possible paths for all right calls
+            for (String str : right) {
+                myAns.add("h" + str); // add h to myAns
+            }
+        }
+
+        if (sr + 1 <= dr) { // Vertical Call (Jump of source row + 1)
+            ArrayList<String> down = getMazePaths(sr + 1, sc, dr, dc); // get all possible paths for all down calls
+            for (String str : down) {
+                myAns.add("v" + str); // add v to myAns
+            }
+        }
+
+        if (sc + 1 <= dc && sr + 1 <= dr) { // Diagonal Call (Jump of source column + 1 and row + 1)
+            ArrayList<String> downRight = getMazePaths(sr + 1, sc + 1, dr, dc); // paths for all downright calls
+            for (String str : downRight) {
+                myAns.add("d" + str); // add d to myAns
+            }
+        }
+
+        return myAns; // returns all possible strings
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        // Get KPC (Keen Pad Combinations) :
         // String s = sc.nextLine();
         // System.out.println(getKPC(s));
 
-        // get Maze Paths
+        // get Maze Paths :
         int n = sc.nextInt(); // number of rows
         int m = sc.nextInt(); // number of columns
         ArrayList<String> ans = getMazePaths(0, 0, n - 1, m - 1); // get all possible paths from (0,0) to (n-1, m-1)
