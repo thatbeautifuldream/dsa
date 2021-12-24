@@ -1,40 +1,36 @@
+# Get Maze Paths
+
+> 1. You are given a number n and a number m representing number of rows and columns in a maze.
+> 2. You are standing in the top-left corner and have to reach the bottom-right corner. Only two moves are allowed 'h' (1-step horizontal) and 'v' (1-step vertical).
+> 3. Complete the body of getMazePath function - without changing signature - to get the list of all paths that can be used to move from top-left to bottom-right.
+> Use sample input and output to take idea about output.
+
+> `Note -> The online judge can't force you to write the function recursively but that is what the spirit of question is. Write recursive and not iterative logic. The purpose of the question is to aid learning recursion and not test you.`
+
+```
+Input Format
+A number n
+A number m
+Output Format
+Contents of the arraylist containing paths as shown in sample output
+
+Constraints
+0 <= n <= 10
+0 <= m <= 10
+Sample Input
+3
+3
+Sample Output
+[hhvv, hvhv, hvvh, vhhv, vhvh, vvhh]
+```
+
+## Solution
+
+```java
+import java.io.*;
 import java.util.*;
 
 public class Main {
-
-    /*
-     * Todays Agenda :
-     * 1. Get KPC
-     * 2. Get Mazepath (Leetcode 17)
-     * 
-     */
-
-    // Global Variable
-    static String[] codes = { ".;", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
-
-    // getKPC using recursion
-    public static ArrayList<String> getKPC(String s) {
-        if (s.length() == 0) { // base case when string is empty
-            ArrayList<String> base = new ArrayList<String>();
-            base.add(""); // empty string
-            return base;
-        }
-        char ch = s.charAt(0); // get first character
-        String ros = s.substring(1); // remove first character
-        ArrayList<String> recAns = getKPC(ros); // returns all possible strings without ch
-        ArrayList<String> myAns = new ArrayList<String>(); // all possible strings added with ch one by one
-        int idx = ch - '0'; // index of ch in codes and digits from keys
-        String code = codes[idx]; // get the code for ch
-        for (int i = 0; i < code.length(); i++) {
-            char newChar = code.charAt(i); // get the new char at i
-            for (String str : recAns) {
-                myAns.add(newChar + str); // add newChar to all possible strings
-            }
-        }
-        return myAns;
-
-    }
-
     // Get Mazepath using recursion
 
     // sr - source row
@@ -81,3 +77,4 @@ public class Main {
     }
 
 }
+```
