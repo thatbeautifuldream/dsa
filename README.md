@@ -1,15 +1,5 @@
 ![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
 
-These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in Java by [(Milind Mishra)](https://milind.bio.link).
-
-
-> [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation)
-> [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup)
-> [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
-
->  [`L1 Solutions` :octocat:](https://github.com/thatbeautifuldream/dsa-level1)
-
-
 ## Level 1
 > Basics of Programming
 
@@ -23,11 +13,11 @@ These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepc
 | **Total**             |   **51/69**  |
 
 
-## Tech Stack
+## Go to [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa)
 
-**Programming Language:** `Java`
+You can find the problem walkthroughs and accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in `Java` by [(Milind Mishra)](https://milind.bio.link).
 
-
-## Authors
-
-- [@thatbeautifuldream](https://www.github.com/thatbeautifuldream)
+> [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation)
+> [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup)
+> [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep)
+> [`L1 Solutions`](https://github.com/thatbeautifuldream/dsa-level1)
