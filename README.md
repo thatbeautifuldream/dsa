@@ -13,6 +13,17 @@
 | **Total**             |   **51/69**  |
 
 
+> Recursion and Backtracking
+
+| Category                  | Number Solved |
+|---------------------------|:-------------:|
+| Introduction to Recursion |    8/8    |
+| Recursion in Arrays       |    6/6    |
+| Recursion with ArrayLists |    5/5    |
+| Recursion on its way up   |    0/7    |
+| Recursion Backtracking    |    0/4    |
+| **Total**                 | **19/30** |
+
 ## Go to [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa)
 
 You can find the problem walkthroughs and accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in `Java` by [(Milind Mishra)](https://milind.bio.link).
