@@ -1,21 +1,31 @@
 # Basics of Programming
 
-| Category                             | Number Solved |
-| ------------------------------------ | :-----------: |
-| Getting Started                      |     14/14     |
-| Patterns                             |     13/20     |
-| Function and Arrays                  |     16/20     |
-| 2D Arrays                            |      5/9      |
-| String, String Builder and ArrayList |      3/6      |
-| **Total**                            |   **51/69**   |
-
 > Getting Started
 
-| Category                             | Links |
-| ------------------------------------ | :-----------: |
-| Getting Started                      |     14/14     |
-| Patterns                             |     13/20     |
-| Function and Arrays                  |     16/20     |
-| 2D Arrays                            |      5/9      |
-| String, String Builder and ArrayList |      3/6      |
-| **Total**                            |   **51/69**   |
+[Print Z](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-001/print-z.html)
+
+[Grading System](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-001/grading-system.html)
+
+[Is A Number Prime](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/is-number-prime.html)
+
+[Primes Till N](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/primes-till-n.html)
+
+[Print Fibonacci Numbers Till N]()
+
+[Count Digits In A Number]()
+
+[Digits Of A Number]()
+
+[Reverse A Number]()
+
+[Inverse Of A Number]()
+
+[Rotate A Number]()
+
+[Gcd & Lcm]()
+
+[Prime Factorization Of A Number]()
+
+[Pythagorean Triplet]()
+
+[The Curious Case Of Benjamin Bulbs]()
