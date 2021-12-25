@@ -22,7 +22,7 @@
 
 [Rotate A Number]()
 
-[Gcd & Lcm]()
+[Gcd & Lcm](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/hw/gcd-lcm.html)
 
 [Prime Factorization Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/hw/prime-factorization.html)
 
