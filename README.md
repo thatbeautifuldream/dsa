@@ -2,7 +2,7 @@
 
 ## Level 1
 
-## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/basics-of-programming.html)
+## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html)
 
 | Category                             | Number Solved |
 | ------------------------------------ | :-----------: |
