@@ -10,7 +10,7 @@
 
 [Primes Till N](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/primes-till-n.html)
 
-[Print Fibonacci Numbers Till N]()
+[Print Fibonacci Numbers Till N](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/hw/fibo-till-n.html)
 
 [Count Digits In A Number]()
 
