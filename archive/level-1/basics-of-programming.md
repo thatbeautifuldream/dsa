@@ -18,7 +18,7 @@
 
 [Reverse A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/reverse-a-number.html)
 
-[Inverse Of A Number]()
+[Inverse Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/inverse-of-a-number.html)
 
 [Rotate A Number]()
 
