@@ -1,6 +1,6 @@
 # Basics of Programming
 
-> Getting Started
+## Getting Started
 
 [Print Z](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-001/print-z.html)
 
