@@ -24,7 +24,7 @@
 
 [Gcd & Lcm]()
 
-[Prime Factorization Of A Number]()
+[Prime Factorization Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/hw/prime-factorization.html)
 
 [Pythagorean Triplet](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/pythagorian-tripplet.html)
 
