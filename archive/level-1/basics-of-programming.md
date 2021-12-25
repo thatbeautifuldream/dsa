@@ -20,7 +20,7 @@
 
 [Inverse Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/inverse-of-a-number.html)
 
-[Rotate A Number]()
+[Rotate A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/rotate-by-k.html)
 
 [Gcd & Lcm](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/hw/gcd-lcm.html)
 
