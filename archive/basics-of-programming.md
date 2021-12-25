@@ -12,9 +12,9 @@
 
 [Print Fibonacci Numbers Till N](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/hw/fibo-till-n.html)
 
-[Count Digits In A Number]()
+[Count Digits In A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/hw/count-digits.html)
 
-[Digits Of A Number]()
+[Digits Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/hw/digits-of-a-number.html)
 
 [Reverse A Number]()
 
