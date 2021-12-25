@@ -1,5 +1,3 @@
-# Pepcoding DSA Solutions in `Java`
-
 ![[object Object]](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&language=1&name=1&owner=1&theme=Dark)
 
 These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in Java by [(Milind Mishra)](https://milind.bio.link).
