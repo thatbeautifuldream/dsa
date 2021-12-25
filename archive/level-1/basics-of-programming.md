@@ -16,7 +16,7 @@
 
 [Digits Of A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-002/hw/digits-of-a-number.html)
 
-[Reverse A Number]()
+[Reverse A Number](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/reverse.html)
 
 [Inverse Of A Number]()
 
