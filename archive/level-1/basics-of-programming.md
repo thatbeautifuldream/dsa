@@ -28,4 +28,4 @@
 
 [Pythagorean Triplet]()
 
-[The Curious Case Of Benjamin Bulbs]()
+[The Curious Case Of Benjamin Bulbs](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/benjamin-bulbs.html)
