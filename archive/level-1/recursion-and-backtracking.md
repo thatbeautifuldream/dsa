@@ -32,4 +32,12 @@
 
 [All Indices of Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/all-indices.html)
 
+## Recursion with ArrayLists
 
+[Get Subsequence](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-026/get-subsequence.html)
+
+[Get KPC](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-028/get-kpc.html)
+
+[Get Stair Path](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-027/get-stair-path.html)
+
+[Get Maze Path](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-028/get-maze-path.html)
