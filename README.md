@@ -24,6 +24,17 @@
 
 ## [Recursion and Backtracking](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html)
 
+<details>
+    <summary>Links 🔗</summary>
+    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#introduction-to-recursion
+    <br>
+    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#recursion-in-arrays
+    <br>
+    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#recursion-with-arraylists
+    <br>
+
+</details>
+
 | Category                  | Number Solved |
 | ------------------------- | :-----------: |
 | Introduction to Recursion |      8/8      |
