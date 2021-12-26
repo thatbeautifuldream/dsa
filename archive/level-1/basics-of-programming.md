@@ -100,7 +100,7 @@
 
 ## String, String Builder and ArrayList
 
-[Print All Palindromic Substrings](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/print-all-palindromic-substrings.html)
+[Print All Palindromic Substrings](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-019/print-all-palindromic-substrings.html)
 
 [String Compression](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/string-compression.html)
 
