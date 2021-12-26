@@ -90,4 +90,6 @@
 
 [Rotate by 90](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-017/rotate-by-90.html)
 
+[Ring Rotate](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-018/ring-rotate.html)
+
 
