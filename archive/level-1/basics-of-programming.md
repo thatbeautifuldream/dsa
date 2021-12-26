@@ -97,3 +97,7 @@
 [Saddle Price]()
 
 [Search in a sorted 2D Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-018/search-in-a-sorted-2d-array.html)
+
+## String, String Builder and ArrayList
+
+[Print All Palindromic Substrings](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/print-all-palindromic-substrings.html)
