@@ -6,9 +6,9 @@
 
 <details>
     <summary>Contents</summary>
-    <a href = "https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started">Getting Started</a>
+    [Getting Started](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started)
 
-    <a href = "https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns>Patterns</a>
+    [Patterns](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns)
 
 </details>
 
