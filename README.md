@@ -4,6 +4,13 @@
 
 ## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html)
 
+<details>
+    <summary>Contents</summary>
+    ```java
+    abc
+    ```
+</details>
+
 | Category                             | Number Solved |
 | ------------------------------------ | :-----------: |
 | Getting Started                      |     14/14     |
