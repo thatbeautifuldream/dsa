@@ -76,10 +76,13 @@
 
 [Digit Frequency]()
 
-
 ## 2D Arrays
 
 [2D Arrays Demo](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-015/2darray-demo.html)
 
 [Matrix Multiplication](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-015/matrix-multiplication.html)
+
+[State of Wakanda - 1](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-016/state-of-wakanda.html)
+
+[Spiral Display](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-016/spiral-display.html)
 
