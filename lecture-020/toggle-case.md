@@ -1,7 +1,7 @@
 # Toggle Case
 
->1. You are given a string that contains only lowercase and uppercase alphabets. 
->2. You have to toggle the case of every character of the given string.
+> 1.  You are given a string that contains only lowercase and uppercase alphabets.
+> 2.  You have to toggle the case of every character of the given string.
 
 ```
 Input Format
@@ -16,8 +16,9 @@ Sample Output
 PEPcodINg
 ```
 
-```java
+## Solution
 
+````java
 import java.io.*;
 import java.util.*;
 
@@ -46,3 +47,4 @@ public class Main {
 	}
 
 }```
+````
