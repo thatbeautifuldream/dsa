@@ -6,9 +6,10 @@
 
 <details>
     <summary>Contents</summary>
-    ```java
-    abc
-    ```
+    <a href = "https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started">Getting Started</a>
+
+    <a href = "https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns>Patterns</a>
+
 </details>
 
 | Category                             | Number Solved |
