@@ -86,3 +86,6 @@
 
 [Spiral Display](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-016/spiral-display.html)
 
+[Exit Point](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-017/exit-point.html)
+
+
