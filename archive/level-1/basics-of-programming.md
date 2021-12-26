@@ -101,3 +101,9 @@
 ## String, String Builder and ArrayList
 
 [Print All Palindromic Substrings](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/print-all-palindromic-substrings.html)
+
+[String Compression]()
+
+[Toggle Case]()
+
+[String With Difference Of Every Two Consecutive Characters](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/string-with-difference-of-every-two-consecutive-characters.html)
