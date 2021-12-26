@@ -1,7 +1,7 @@
 # Ring Rotate
 
 > You are given a n*m matrix where n are the number of rows and m are the number of columns. You are also given n*m numbers representing the elements of the matrix.
-> You will be given a ring number 's' representing the ring of the matrix. 
+> You will be given a ring number 's' representing the ring of the matrix.
 > You will be given a number 'r' representing number of rotations in an anti-clockwise manner of the specified ring.
 > You are required to rotate the 's'th ring by 'r' rotations and display the rotated matrix.
 
@@ -72,6 +72,8 @@ Sample Output
 41 23 22 32 42 43 47
 51 52 53 54 55 56 57
 ```
+
+## Solution
 
 ```java
 import java.io.*;

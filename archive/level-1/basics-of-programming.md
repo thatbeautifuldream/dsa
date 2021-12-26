@@ -88,4 +88,6 @@
 
 [Exit Point](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-017/exit-point.html)
 
+[Rotate by 90](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-017/rotate-by-90.html)
+
 
