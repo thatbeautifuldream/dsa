@@ -5,12 +5,12 @@
 ## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html)
 
 <details>
-    <summary>Contents</summary>
+    <summary>Links 🔗</summary>
     https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started
     <br>
     https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns
     <br>
-    
+
 </details>
 
 | Category                             | Number Solved |
