@@ -92,4 +92,4 @@
 
 [Ring Rotate](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-018/ring-rotate.html)
 
-
+[State of Wakanda - 2](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-019/state-of-wakanda-2.html)
