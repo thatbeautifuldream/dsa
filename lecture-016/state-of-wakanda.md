@@ -32,9 +32,7 @@ You are required to print the path that this traveler follows to visit all place
 3. You will be given n*m numbers, representing elements of 2d arrays.
 
 Note - Please check the output format for details.
-```
 
-```text
 Input Format
 A number n
 A number m
@@ -92,6 +90,8 @@ Sample Output
 24
 14
 ```
+
+## Solution
 
 ```java
 import java.util.Scanner;

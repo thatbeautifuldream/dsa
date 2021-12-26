@@ -81,3 +81,5 @@
 
 [2D Arrays Demo](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-015/2darray-demo.html)
 
+[Matrix Multiplication](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-015/matrix-multiplication.html)
+
