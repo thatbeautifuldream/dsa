@@ -42,14 +42,32 @@
 
 [Pattern 5](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-5.html)
 
-[Pattern 1]()
+[Pattern 6]()
 
-[Pattern 1]()
+[Pattern 7]()
 
-[Pattern 1]()
+[Pattern 8]()
 
-[Pattern 1]()
+[Pattern 9]()
 
-[Pattern 1]()
+[Pattern 10]()
 
-[Pattern 1]()
+[Pattern 11]()
+
+[Pattern 12]()
+
+[Pattern 13]()
+
+[Pattern 14]()
+
+[Pattern 15]()
+
+[Pattern 16]()
+
+[Pattern 17]()
+
+[Pattern 18]()
+
+[Pattern 19]()
+
+[Pattern 20]()
