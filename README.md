@@ -6,10 +6,11 @@
 
 <details>
     <summary>Contents</summary>
-    [Getting Started](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started)
+    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started
     <br>
-    [Patterns](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns)
-
+    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns
+    <br>
+    
 </details>
 
 | Category                             | Number Solved |
