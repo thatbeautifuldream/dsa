@@ -17,3 +17,15 @@
 [Print ZigZag](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/print-zigzag.html)
 
 [Tower of Hanoi](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-024/tower-of-hanoi.html)
+
+## Recursion in Arrays
+
+[Display Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-024/display-array.html)
+
+[Display Array in Reverse](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-024/display-array-in-reverse.html)
+
+[Max of Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/max-of-array.html)
+
+[First Index](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/first-index.html)
+
+[Last Index](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/last-index.html)
