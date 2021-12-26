@@ -96,4 +96,4 @@
 
 [Saddle Price]()
 
-[Search in a sorted 2D Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-019/search-in-a-sorted-2d-array.html)
+[Search in a sorted 2D Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-018/search-in-a-sorted-2d-array.html)
