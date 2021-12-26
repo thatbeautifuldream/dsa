@@ -30,6 +30,26 @@
 
 [The Curious Case Of Benjamin Bulbs](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/benjamin-bulbs.html)
 
-
 ## Patterns
 
+[Pattern 1](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-1.html)
+
+[Pattern 2](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-2.html)
+
+[Pattern 3](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-3.html)
+
+[Pattern 4](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-4.html)
+
+[Pattern 5](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-004/pattern-5.html)
+
+[Pattern 1]()
+
+[Pattern 1]()
+
+[Pattern 1]()
+
+[Pattern 1]()
+
+[Pattern 1]()
+
+[Pattern 1]()
