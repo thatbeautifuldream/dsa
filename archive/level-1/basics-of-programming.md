@@ -93,3 +93,7 @@
 [Ring Rotate](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-018/ring-rotate.html)
 
 [State of Wakanda - 2](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-019/state-of-wakanda-2.html)
+
+[Saddle Price]()
+
+[Search in a sorted 2D Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-019/search-in-a-sorted-2d-array.html)

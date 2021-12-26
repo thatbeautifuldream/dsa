@@ -1,11 +1,12 @@
 # Search in 2D Array
 
->1. You are given a number n, representing the number of rows and columns of a square matrix.
->2. You are given n * n numbers, representing elements of 2d array a. 
->Note - Each row and column is sorted in increasing order.
->3. You are given a number x.
->4. You are required to find x in the matrix and print it's location int (row, col) format as discussed in output format below.
->5. In case element is not found, print "Not Found".
+> 1.  You are given a number n, representing the number of rows and columns of a square matrix.
+> 2.  You are given n \* n numbers, representing elements of 2d array a.
+>     `Note - Each row and column is sorted in increasing order.`
+> 3.  You are given a number x.
+> 4.  You are required to find x in the matrix and print it's location int (row, col) format as discussed in output format below.
+> 5.  In case element is not found, print "Not Found".
+
 ```
 Input Format
 A number n
@@ -47,6 +48,8 @@ Sample Output
 2
 ```
 
+## Solution
+
 ```java
 import java.io.*;
 import java.util.*;
@@ -54,7 +57,7 @@ import java.util.*;
 public class Main {
 
     public static void search2D(int[][] arr, int x) {
-        // starting : top - right (optimal approach) 
+        // starting : top - right (optimal approach)
         int n = arr.length; // rows
         int i = 0;
         int j = n - 1;
