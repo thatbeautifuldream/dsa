@@ -71,3 +71,7 @@
 [Pattern 19]()
 
 [Pattern 20]()
+
+## Function and Arrays
+
+[Digit Frequency]()
