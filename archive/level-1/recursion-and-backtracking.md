@@ -28,7 +28,7 @@
 
 [First Index](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/first-index.html)
 
-[Last Index](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/last-index.html)
+[Last Index](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-026/last-index.html)
 
 [All Indices of Array](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-025/all-indices.html)
 
