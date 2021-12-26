@@ -102,8 +102,12 @@
 
 [Print All Palindromic Substrings](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/print-all-palindromic-substrings.html)
 
-[String Compression]()
+[String Compression](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/string-compression.html)
 
 [Toggle Case](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/toggle-case.html)
 
 [String With Difference Of Every Two Consecutive Characters](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-020/string-with-difference-of-every-two-consecutive-characters.html)
+
+[Print All Permutations Of A String Iteratively]()
+
+[Remove Primes](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-021/remove-primes.html)

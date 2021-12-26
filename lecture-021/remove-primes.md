@@ -1,9 +1,10 @@
 # Remove Primes
 
->1. You are given an ArrayList of positive integers.
->2. You have to remove prime numbers from the given ArrayList and return the updated ArrayList.
+> 1.  You are given an ArrayList of positive integers.
+> 2.  You have to remove prime numbers from the given ArrayList and return the updated ArrayList.
+>     `Note -> The order of elements should remain same.`
+
 ```
-Note -> The order of elements should remain same.
 Input Format
 A number N
 arr1
@@ -19,6 +20,8 @@ Sample Output
 [12, 15]
 ```
 
+## Solution
+
 ```java
 import java.io.*;
 import java.util.*;
@@ -26,7 +29,7 @@ import java.util.*;
 public class Main {
 
 	public static boolean isPrime(int n) {
-        
+
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
                 return false;
@@ -51,7 +54,7 @@ public class Main {
 		for(int i = 0 ; i < n; i++){
 			al.add(scn.nextInt());
 		}
-		
+
 		removePrimes(al);
 		System.out.println(al);
 	}
