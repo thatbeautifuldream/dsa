@@ -29,3 +29,7 @@
 [Pythagorean Triplet](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/pythagorian-tripplet.html)
 
 [The Curious Case Of Benjamin Bulbs](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-003/benjamin-bulbs.html)
+
+
+## Patterns
+
