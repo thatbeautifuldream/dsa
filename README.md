@@ -4,15 +4,6 @@
 
 ## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html)
 
-<details>
-    <summary>Links 🔗</summary>
-    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#getting-started
-    <br>
-    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html#patterns
-    <br>
-
-</details>
-
 | Category                             | Number Solved |
 | ------------------------------------ | :-----------: |
 | Getting Started                      |     14/14     |
@@ -23,17 +14,6 @@
 | **Total**                            |   **51/69**   |
 
 ## [Recursion and Backtracking](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html)
-
-<details>
-    <summary>Links 🔗</summary>
-    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#introduction-to-recursion
-    <br>
-    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#recursion-in-arrays
-    <br>
-    https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html#recursion-with-arraylists
-    <br>
-
-</details>
 
 | Category                  | Number Solved |
 | ------------------------- | :-----------: |
