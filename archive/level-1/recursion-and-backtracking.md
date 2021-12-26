@@ -15,3 +15,5 @@
 [Power Logarithmic](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/power-logarithmic.html)
 
 [Print ZigZag](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/print-zigzag.html)
+
+[Tower of Hanoi](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-024/tower-of-hanoi.html)
