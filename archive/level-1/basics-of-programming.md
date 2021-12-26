@@ -74,7 +74,19 @@
 
 ## Function and Arrays
 
-[Digit Frequency]()
+[Digit Frequency](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/digit-frequency.html)
+
+[Decimal to Any Base](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/decimal-to-anybase.html)
+
+[Anybase to Decimal](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/anybase-to-decimal.html)
+
+[Anybase to Anybase](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/anybase-to-anybase.html)
+
+[Anybase Addition](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/anybase-addition.html)
+
+[Anybase Subtraction](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/anybase-subtraction.html)
+
+[Anybase Multiplication](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-007/anybase-multiplication.html)
 
 
 

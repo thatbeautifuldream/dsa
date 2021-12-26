@@ -4,6 +4,33 @@
 > 2. You are given n numbers.
 > 3. You are required to find the span of input. Span is defined as difference of maximum value and minimum value.
 
+```
+Input Format
+A number n
+n1
+n2
+.. n number of elements
+Output Format
+A number representing max - min
+
+Constraints
+1 <= n <= 10^4
+0 <= n1, n2
+ .. n elements <= 10 ^9
+Sample Input
+6
+15
+30
+40
+4
+11
+9
+Sample Output
+36
+```
+
+## Solution
+
 ```java
 import java.util.Scanner;
 
@@ -36,4 +63,4 @@ public class Main {
     }
 
 }
-```
+````
