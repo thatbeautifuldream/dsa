@@ -43,3 +43,7 @@
 [Get Maze Path](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-028/get-maze-path.html)
 
 [Get Maze Path with Jumps](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-029/get-maze-path-with-jumps.html)
+
+## Recursion on the way up
+
+[Print Subsequence](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-029/print-subsequence.html)
