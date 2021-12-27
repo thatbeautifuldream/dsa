@@ -54,14 +54,14 @@ public class Main {
     // (dont store but print)
 
     public static void printSS(String str, String ans) {
-        if (str.length() == 0) {
-            System.out.println(ans);
+        if (str.length() == 0) { // base case
+            System.out.println(ans); // print the answer
             return;
         }
-        char ch = str.charAt(0); // a
-        String ros = str.substring(1); // bc
-        printSS(ros, ans + ch);
-        printSS(ros, ans);
+        char ch = str.charAt(0); // get the first character : a
+        String ros = str.substring(1); // get the rest of the string : bc
+        printSS(ros, ans + ch); // first call : ans contains character a
+        printSS(ros, ans); // second call : ans does not contain character a
     }
 
     public static void main(String[] args) throws Exception {
