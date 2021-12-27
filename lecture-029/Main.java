@@ -127,6 +127,9 @@ public class Main {
         // ArrayList<String> myAns = getMazePathsWithJumps(0, 0, n - 1, m - 1);
         // System.out.println(myAns);
 
+        // All Get Problems are Top Down Approach
+        // All Print Problems are Bottom Up Approach
+
         // !Print Subsequence
         // String str = scn.next();
         // printSS(str, "");
