@@ -64,6 +64,24 @@ public class Main {
         printSS(ros, ans); // second call : ans does not contain character a
     }
 
+    // Print stair path : Print all possible stair paths of a given number of steps
+
+    public static void printStairPaths(int n, String path) {
+        if (n == 0) {
+            System.out.println(path); // print the answer
+            return;
+        }
+        if (n - 1 >= 0) { // 1 step
+            printStairPaths(n - 1, path + "1"); // add 1 step
+        }
+        if (n - 2 >= 0) { // 2 steps
+            printStairPaths(n - 2, path + "2"); // add 2 steps
+        }
+        if (n - 3 >= 0) { // 3 steps
+            printStairPaths(n - 3, path + "3"); // add 3 steps
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
         // !Get Maze Paths
@@ -73,8 +91,12 @@ public class Main {
         // System.out.println(myAns);
 
         // !Print Subsequence
-        String str = scn.next();
-        printSS(str, "");
+        // String str = scn.next();
+        // printSS(str, "");
+
+        // !Print Stair Paths
+        int n = scn.nextInt();
+        printStairPaths(n, "");
         scn.close();
     }
 
