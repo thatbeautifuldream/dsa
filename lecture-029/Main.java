@@ -91,6 +91,22 @@ public class Main {
         // }
     }
 
+    // Print Maze Path : Print all possible maze paths of a given source and
+    // destination
+
+    public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
+        if (sr == dr && sc == dc) { // base case
+            System.out.println(psf); // print the answer
+            return;
+        }
+        if (sc + 1 <= dc) { // can move right
+            printMazePaths(sr, sc + 1, dr, dc, psf + "h"); // add h to the path
+        }
+        if (sr + 1 <= dr) { // can move down
+            printMazePaths(sr + 1, sc, dr, dc, psf + "v"); // add v to the path
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
         // !Get Maze Paths
@@ -104,8 +120,13 @@ public class Main {
         // printSS(str, "");
 
         // !Print Stair Paths
+        // int n = scn.nextInt();
+        // printStairPaths(n, "");
+
+        // !Print Maze Paths
         int n = scn.nextInt();
-        printStairPaths(n, "");
+        int m = scn.nextInt();
+        printMazePaths(0, 0, n - 1, m - 1, "");
         scn.close();
     }
 
