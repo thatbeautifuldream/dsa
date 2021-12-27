@@ -46,12 +46,35 @@ public class Main {
         return myAns; // return the answer
     }
 
+    // Question/Function Types
+    // GET : ArrayList type => Top down approach
+    // PRINT : Void type => Bottom up approach
+
+    // Print Subsequence : Print all possible subsequences of a given string
+    // (dont store but print)
+
+    public static void printSS(String str, String ans) {
+        if (str.length() == 0) {
+            System.out.println(ans);
+            return;
+        }
+        char ch = str.charAt(0); // a
+        String ros = str.substring(1); // bc
+        printSS(ros, ans + ch);
+        printSS(ros, ans);
+    }
+
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int m = scn.nextInt();
-        ArrayList<String> myAns = getMazePathsWithJumps(0, 0, n - 1, m - 1);
-        System.out.println(myAns);
+        // !Get Maze Paths
+        // int n = scn.nextInt();
+        // int m = scn.nextInt();
+        // ArrayList<String> myAns = getMazePathsWithJumps(0, 0, n - 1, m - 1);
+        // System.out.println(myAns);
+
+        // !Print Subsequence
+        String str = scn.next();
+        printSS(str, "");
         scn.close();
     }
 
