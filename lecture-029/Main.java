@@ -95,16 +95,28 @@ public class Main {
     // destination
 
     public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
+
         if (sr == dr && sc == dc) { // base case
             System.out.println(psf); // print the answer
             return;
         }
+
+        // ! Proactive call : when we call with cases
+
         if (sc + 1 <= dc) { // can move right
             printMazePaths(sr, sc + 1, dr, dc, psf + "h"); // add h to the path
         }
         if (sr + 1 <= dr) { // can move down
             printMazePaths(sr + 1, sc, dr, dc, psf + "v"); // add v to the path
         }
+
+        // Either way we can call and handle negative cases
+        // ! Reactive call : when we call without cases
+        // if (sr > dr && sc > dc) {
+        // return;
+        // }
+        // printMazePaths(sr, sc + 1, dr, dc, psf + "h"); // add h to the path
+        // printMazePaths(sr + 1, sc, dr, dc, psf + "v"); // add v to the path
     }
 
     public static void main(String[] args) throws Exception {
