@@ -49,3 +49,5 @@
 [Print Subsequence](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-029/print-subsequence.html)
 
 [Print Stair Path](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-029/print-stair-path.html)
+
+[Print Maze Path](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-029/print-maze-path.html)
