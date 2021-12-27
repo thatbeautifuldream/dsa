@@ -50,8 +50,9 @@ public class Main {
     // GET : ArrayList type => Top down approach
     // PRINT : Void type => Bottom up approach
 
-    // Print Subsequence : Print all possible subsequences of a given string
-    // (dont store but print)
+    // ! Print Subsequence : Print all possible subsequences of a given string
+    // (doesnt store but print)
+    // ! Really good question can be used to solve really hard problems
 
     public static void printSS(String str, String ans) {
         if (str.length() == 0) { // base case
@@ -80,6 +81,14 @@ public class Main {
         if (n - 3 >= 0) { // 3 steps
             printStairPaths(n - 3, path + "3"); // add 3 steps
         }
+
+        // ! in a stair path, you can either take 1, 2 or 3 steps
+        // solving in one loop
+        // for (int step = 1; step <= 3; step++) {
+        // if (n - step >= 0) { // 1 step
+        // printStairPaths(n - step, path + step); // add path number of steps
+        // }
+        // }
     }
 
     public static void main(String[] args) throws Exception {

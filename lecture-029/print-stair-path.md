@@ -38,19 +38,32 @@ public class Main {
     }
 
     public static void printStairPaths(int n, String path) {
+
+        // ! in a stair path, you can either take 1, 2 or 3 steps
+
         if (n == 0) {
             System.out.println(path); // print the answer
             return;
         }
+
         if (n - 1 >= 0) { // 1 step
             printStairPaths(n - 1, path + "1"); // add 1 step
         }
+
         if (n - 2 >= 0) { // 2 steps
             printStairPaths(n - 2, path + "2"); // add 2 steps
         }
+
         if (n - 3 >= 0) { // 3 steps
             printStairPaths(n - 3, path + "3"); // add 3 steps
         }
+
+        // solving in one loop
+        // for (int step = 1; step <= 3; step++) {
+        // if (n - step >= 0) { // 1 step
+        // printStairPaths(n - step, path + step); // add path number of steps
+        // }
+        // }
     }
 
 }
