@@ -67,6 +67,27 @@ public class Main {
         }
     }
 
+    // Print Encodings
+    public static void printEncodings(String str, String ans) {
+        if (str.length() == 0) {
+            System.out.println(ans);
+            return; // base case
+        }
+        if (str.charAt(0) == '0') {
+            return; // since 01 != a, according to problem statement
+        }
+        char ch1 = str.charAt(0);
+        int v1 = ch1 - '0';
+        printEncodings(str.substring(1), ans + (char) (v1 + 'a' - 1));
+        if (str.length() >= 2) {
+            char ch2 = str.charAt(1);
+            int v2 = ch2 - '0';
+            if (v1 * 10 + v2 <= 26) {
+                printEncodings(str.substring(2), ans + (char) (v1 * 10 + v2 + 'a' - 1));
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -74,7 +95,7 @@ public class Main {
         // printMazePathsWithJumps1(0, 0, n - 1, m - 1, "");
         // printMazePathsWithJumps2(0, 0, n - 1, m - 1, "");
         String s = sc.next();
-        printPermutations(s, "");
+        printEncodings(s, "");
         sc.close();
     }
 }
