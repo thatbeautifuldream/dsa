@@ -43,6 +43,15 @@ public class Main {
             System.out.println(psf);
             return;
         }
+        for (int d = 0; d < dir.length; d++) {
+            for (int jump = 1; jump <= Math.max(dr, dc); jump++) {
+                int r = sr + (jump * dir[d][0]);
+                int c = sc + (jump * dir[d][1]);
+                if (r >= 0 && r <= dr && c >= 0 && c <= dc) {
+                    printMazePathsWithJumps2(r, c, dr, dc, psf + dirN[d] + jump);
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
