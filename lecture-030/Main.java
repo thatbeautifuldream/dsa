@@ -17,19 +17,19 @@ public class Main {
         // horizontal
         if (sc + 1 <= dc) {
             for (int jump = 1; sc + jump <= dc; jump++) {
-                printMazePathsWithJumps(sr, sc + jump, dr, dc, psf + "h" + jump);
+                printMazePathsWithJumps1(sr, sc + jump, dr, dc, psf + "h" + jump);
             }
         }
         // vertical
         if (sr + 1 <= dr) {
             for (int jump = 1; sr + jump <= dr; jump++) {
-                printMazePathsWithJumps(sr + jump, sc, dr, dc, psf + "v" + jump);
+                printMazePathsWithJumps1(sr + jump, sc, dr, dc, psf + "v" + jump);
             }
         }
         // diagonal
         if (sr + 1 <= dr && sc + 1 <= dc) {
             for (int jump = 1; sr + jump <= dr && sc + jump <= dc; jump++) {
-                printMazePathsWithJumps(sr + jump, sc + jump, dr, dc, psf + "d" + jump);
+                printMazePathsWithJumps1(sr + jump, sc + jump, dr, dc, psf + "d" + jump);
             }
         }
     }
