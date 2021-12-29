@@ -54,12 +54,27 @@ public class Main {
         }
     }
 
+    // Print Permutations
+    public static void printPermutations(String str, String ans) {
+        if (str.length() == 0) {
+            System.out.println(ans);
+            return;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i); // get ch from str
+            String ros = str.substring(0, i) + str.substring(i + 1); // exclude ch from str
+            printPermutations(ros, ans + ch);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
+        // int n = sc.nextInt();
+        // int m = sc.nextInt();
         // printMazePathsWithJumps1(0, 0, n - 1, m - 1, "");
-        printMazePathsWithJumps2(0, 0, n - 1, m - 1, "");
+        // printMazePathsWithJumps2(0, 0, n - 1, m - 1, "");
+        String s = sc.next();
+        printPermutations(s, "");
         sc.close();
     }
 }
