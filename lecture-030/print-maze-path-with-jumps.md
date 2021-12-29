@@ -51,10 +51,8 @@ d2
 import java.util.*;
 
 public class Main {
-    // ! Agenda :
-    // Print Maze path with jumps
-    // Print Permutations
-    // Print Encodings
+    // ! Solving using two approaches
+    // Approach 1
 
     public static void printMazePathsWithJumps1(int sr, int sc, int dr, int dc, String psf) {
         if (sr == dr && sc == dc) {
@@ -83,6 +81,8 @@ public class Main {
             }
         }
     }
+
+    // Approach 2 : using "Direction Array"
 
     // global scoped variables
     static int[][] dir = { { 0, 1 }, { 1, 0 }, { 1, 1 } }; // {horizontal(right), vertical(down), diagonal(right-down)}
