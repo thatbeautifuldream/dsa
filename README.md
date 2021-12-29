@@ -20,9 +20,9 @@
 | Introduction to Recursion |      8/8      |
 | Recursion in Arrays       |      6/6      |
 | Recursion with ArrayLists |      5/5      |
-| Recursion on its way up   |      0/7      |
+| Recursion on its way up   |      6/7      |
 | Recursion Backtracking    |      0/4      |
-| **Total**                 |   **19/30**   |
+| **Total**                 |   **25/30**   |
 
 ## Go to the [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa) & drop a 🌟 if this helped you!
 
