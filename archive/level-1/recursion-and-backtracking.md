@@ -8,7 +8,7 @@
 
 [Print Increasing Decreasing](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-022/print-decreasing-increasing.html)
 
-[Factorial](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-022/factorial.html)
+[Factorial](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-022/factorial-recursion.html)
 
 [Power Linear](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/power-linear.html)
 
