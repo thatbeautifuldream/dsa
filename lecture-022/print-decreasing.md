@@ -29,7 +29,7 @@ Sample Output
 ```
 ## Notes
 
-![Screenshot 2021-12-13 at 10 13 45 PM](https://user-images.githubusercontent.com/28717686/145853522-bf08d4e0-0966-4fa4-90ba-5e23a4e169aa.png)
+![Screenshot 2022-01-02 at 3 57 42 PM](https://user-images.githubusercontent.com/28717686/147873005-f8262231-ba52-4c8d-b371-1abf8d7d4816.png)
 
 ## Solution
 
