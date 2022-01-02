@@ -12,7 +12,7 @@
 
 [Power Linear](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/power-linear.html)
 
-[Power Logarithmic](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/power-logarithmic.html)
+[Power Logarithmic](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/power-log.html)
 
 [Print ZigZag](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-023/print-zigzag.html)
 
