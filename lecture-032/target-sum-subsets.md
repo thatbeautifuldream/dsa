@@ -9,7 +9,6 @@
 
 ```
 Input Format
-Input Format
 A number n
 n1
 n2
