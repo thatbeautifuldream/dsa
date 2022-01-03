@@ -22,6 +22,8 @@ Sample Output
 0-2, 1-0, 2-3, 3-1, .
 ```
 
+## [Visualization](http://www.algoanim.ide.sk/index.php?page=showanim&id=61)
+
 ## Solution
 
 ```java
