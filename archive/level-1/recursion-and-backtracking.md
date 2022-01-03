@@ -66,4 +66,4 @@
 
 [N Queens](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-032/n-queens.html)
 
-[Knights Tour](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-032/knights-tour.html)
+[Knights Tour](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-033/knights-tour.html)
