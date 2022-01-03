@@ -21,12 +21,19 @@
 | Recursion in Arrays       |      6/6      |
 | Recursion with ArrayLists |      5/5      |
 | Recursion on its way up   |      6/7      |
-| Recursion Backtracking    |      0/4      |
-| **Total**                 |   **25/30**   |
+| Recursion Backtracking    |      3/4      |
+| **Total**                 |   **28/30**   |
+
+## [Dynamic Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/dynamic-programming.html)
+
+| Category                       | Number Solved |
+| ------------------------------ | :-----------: |
+| Dynamic Programming and Greedy |      0/0      |
+| Time and Space Complexity      |      0/0      |
+| **Total**                      |    **0/0**    |
 
 ## Go to the [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa) & drop a 🌟 if this helped you! [![CodeFactor](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa/badge)](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa)
 
 These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in `Java` by [(Milind Mishra)](https://milind.bio.link).
-
 
 > [`Level 1`](https://www.pepcoding.com/resources/online-java-foundation) [`Level 2`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup) [`Level 3`](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-interview-prep) [`L1 Solutions`](https://github.com/thatbeautifuldream/dsa-level1)
