@@ -22,7 +22,7 @@ Sample Output
 0-2, 1-0, 2-3, 3-1, .
 ```
 
-## Visualization : 🔗[Recursive N-Queens](http://www.algoanim.ide.sk/index.php?page=showanim&id=61)
+## Visualization : 🔗 [Recursive N-Queens](http://www.algoanim.ide.sk/index.php?page=showanim&id=61)
 
 ## Solution
 
