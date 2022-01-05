@@ -69,6 +69,21 @@ public class Main {
  * We can make User defined classes (User defined data types)
  */
 
+class robot {
+    int x = 10;
+
+    void fun() {
+        System.out.println("Hello");
+    }
+
+    public static void main(String[] args) {
+        robot r = new robot();
+        r.fun();
+    }
+}
+
+// javac Main.java && java robot
+
 /*
  * Linked Lists : A data structure that stores a sequence of elements (Linear
  * Data Structure)
