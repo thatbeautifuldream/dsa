@@ -67,6 +67,16 @@ public class Main {
  * Classes : blueprints for objects
  * Objects : instances of classes
  * We can make User defined classes (User defined data types)
+ * Java Program can have any no. of class & this program can have any name.
+ * Java Program can have atmost 1 public class & this program must have of name
+ * of the public class.
+ * Different classes can have diff main method After complilation class files
+ * are created containing main method.
+ * we can run diff .class files.
+ * but if a class does not contain main method
+ * -Error: No main method found.
+ * if we run any random name
+ * -Error: No class found.
  */
 
 class robot {
