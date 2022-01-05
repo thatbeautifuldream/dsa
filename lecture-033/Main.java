@@ -4,6 +4,8 @@ public class Main {
 
     // !Agenda for today:
     // Knights Tour
+    // OOPS
+    // Linked Lists
 
     // Direction array for kinght tour (8 moves clockwise fashion)
     static int[][] dir = { { -2, 1 }, { -1, 2 }, { 1, 2 }, { 2, 1 }, { 2, -1 }, { 1, -2 }, { -1, -2 }, { -2, -1 } };
@@ -57,3 +59,39 @@ public class Main {
         sc.close();
     }
 }
+
+// !Rough Notes (from the lecture)
+
+/*
+ * OOPS : Object Oriented Programming (Classes, Objects)
+ * Classes : blueprints for objects
+ * Objects : instances of classes
+ * We can make User defined classes (User defined data types)
+ */
+
+/*
+ * Linked Lists : A data structure that stores a sequence of elements (Linear
+ * Data Structure)
+ * It consists of a sequence of nodes, each of which contains a reference to
+ * the next node in the sequence.
+ * It is a dynamic data structure.
+ * It is a collection of nodes.
+ * A Node is a data structure that contains data and a reference to the next
+ * (data | next node's reference) -> ... -> (data | null)
+ * 
+ * Why Linked Lists?
+ * It can store in a format that stores in a fragmented memory space.
+ * It can store in non contiguous memory space. (chunks of memory)
+ * Helps in efficient memory management.
+ * 
+ * Advantage of Linked Lists :
+ * 1. Efficient memory management
+ * 2. Easily insert and delete elements : O(1) time
+ * 
+ * 
+ * Disadvantages of Linked Lists:
+ * 1. Extra memory space required
+ * 2. To access elements, we need to traverse the entire list
+ * Performs a Linear Search : O(n) time
+ * 
+ */
