@@ -59,7 +59,7 @@ public class Main {
                 tail.next = temp;
                 tail = temp;
             }
-            size++;
+            size++; // Increment the size of list
         }
     }
 
