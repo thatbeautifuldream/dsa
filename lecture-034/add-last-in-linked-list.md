@@ -29,7 +29,7 @@ Sample Output
 50
 ```
 
-## Visualization [Stack (Linked List Implementaion](https://www.cs.usfca.edu/~galles/visualization/StackLL.html)
+## Visualization [Stack `Linked List Implementaion`](https://www.cs.usfca.edu/~galles/visualization/StackLL.html)
 
 ## Solution
 
