@@ -45,17 +45,17 @@ public class Main {
     // Assign the data to the new node
     // Connect tail and temp
     public static class LinkedList {
-        Node head;
-        Node tail;
-        int size;
+        Node head; // head of list of Node type
+        Node tail; // tail of list of Node type
+        int size; // size of list
 
         void addLast(int val) {
-            Node temp = new Node();
-            temp.data = val;
-            if (size == 0) {
+            Node temp = new Node(); // Create a new node with help of new
+            temp.data = val; // Assign the data to the new node
+            if (size == 0) { // If list is empty then head and tail will point to the same node
                 head = temp;
                 tail = temp;
-            } else {
+            } else { // If list is not empty then tail will point to the new node
                 tail.next = temp;
                 tail = temp;
             }
