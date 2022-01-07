@@ -50,7 +50,7 @@ import java.util.*;
 
 public class Main {
 
-    // !Add First in Linked List
+    // !Remove First in Linked List
     public static class Node {
         int data;
         Node next;
