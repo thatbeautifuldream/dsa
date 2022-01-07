@@ -8,7 +8,7 @@
 >    3.2. size - Should return the number of elements in the linked list.
 > 4. Input and Output is managed for you.
 
-```
+```text
 Input Format
 Input is managed for you
 Output Format
