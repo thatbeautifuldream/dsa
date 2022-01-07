@@ -45,6 +45,8 @@ Sample Output
 List is empty
 ```
 
+## Solution
+
 ```java
 import java.io.*;
 import java.util.*;
