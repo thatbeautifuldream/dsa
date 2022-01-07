@@ -21,8 +21,19 @@
 | Recursion in Arrays       |      6/6      |
 | Recursion with ArrayLists |      5/5      |
 | Recursion on its way up   |      6/7      |
-| Recursion Backtracking    |      3/4      |
-| **Total**                 |   **28/30**   |
+| Recursion Backtracking    |      4/4      |
+| **Total**                 |   **29/30**   |
+
+## [Basic Data Structures](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basic-data-structures.html)
+
+| Category           | Number Solved |
+| ------------------ | :-----------: |
+| Stacks and Queues  |      0/0      |
+| Linked Lists       |      0/0      |
+| Generic Tree       |      0/0      |
+| Binary Tree        |      0/0      |
+| Binary Search Tree |      0/0      |
+| **Total**          |    **0/0**    |
 
 ## [Dynamic Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/dynamic-programming.html)
 
