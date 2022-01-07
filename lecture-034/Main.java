@@ -82,11 +82,22 @@ public class Main {
         }
 
         public int size() {
-            // write code here
+            return size; // as defined in the class
         }
 
         public void display() {
-            // write code here
+            if (size == 0) {
+                // System.out.println("List is empty");
+                return; // return from the method if list is empty
+            }
+
+            // Current node pointer : curr
+            // Prints the data of the current node and moves to the next node with curr.next
+            // Runs till curr.next or curr is null
+            for (Node curr = head; curr != null; curr = curr.next) {
+                System.out.print(curr.data + " ");
+            }
+            System.out.println();
         }
     }
 
