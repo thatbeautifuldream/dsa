@@ -1,14 +1,37 @@
-// ! Agenda :
-// Linked Lists
+# Add Last In Linked List
 
-/*
-* Linked List  : ADT (Abstract Data Type)
-* Head, Tail, Size (Data Members)
-* Add, Remove, Get, Set, Contains, Clear, Reverse, Sort (Member Functions)
-*/
+> 1. You are given a partially written LinkedList class.
+> 2. You are required to complete the body of addLast function. This function is supposed to add an element to the end of LinkedList. You are required to update head, tail and size as required.
+> 3. Input and Output is managed for you. Just update the code in addLast function.
 
-// static function can only call static function, methord, variable
+```
+   Input Format
+   Input is managed for you
+   Output Format
+   Output is managed for you
 
+Constraints
+None
+Sample Input
+addLast 10
+addLast 20
+addLast 30
+addLast 40
+addLast 50
+quit
+Sample Output
+10
+20
+30
+40
+50
+5
+50
+```
+
+## Solution
+
+```java
 import java.io.*;
 import java.util.*;
 
@@ -67,3 +90,4 @@ public class Main {
         testList(list);
     }
 }
+```
