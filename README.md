@@ -29,11 +29,11 @@
 | Category           | Number Solved |
 | ------------------ | :-----------: |
 | Stacks and Queues  |      0/0      |
-| Linked Lists       |      0/0      |
+| Linked Lists       |      1/1      |
 | Generic Tree       |      0/0      |
 | Binary Tree        |      0/0      |
 | Binary Search Tree |      0/0      |
-| **Total**          |    **0/0**    |
+| **Total**          |    **1/1**    |
 
 ## [Dynamic Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/dynamic-programming.html)
 
