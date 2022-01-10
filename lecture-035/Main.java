@@ -4,6 +4,7 @@
 // * Get Value in Linked List
 // * Add first in a Linked List
 // * Add at index in Linked List
+// * Remove Last In Linked List
 import java.io.*;
 import java.util.*;
 
@@ -237,5 +238,6 @@ public class Main {
         // }
         // str = br.readLine();
         // }
+        // !REMOVE LAST IN LINKED LIST
     }
 }

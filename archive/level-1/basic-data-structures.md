@@ -16,6 +16,8 @@
 
 [Add at Index In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/add-at-index-in-linked-list.html)
 
+[Remove Last In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/remove-last-in-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
