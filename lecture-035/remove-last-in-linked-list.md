@@ -195,13 +195,33 @@ public class Main {
                 head = tail = null;
                 size = 0;
             } else {
+                // Node temp = head;
+                // for (int i = 0; i < size - 2; i++) {
+                // temp = temp.next;
+                // }
+                // tail = temp;
+                // tail.next = null;
+                // size--;
+                Node penultimate = getNodeAt(size - 2);
+                penultimate.next = null;
+                tail = penultimate;
+                size--;
+            }
+        }
+
+        private Node getNodeAt(int idx) {
+            if (size == 0) {
+                System.out.println("List is empty");
+                return null;
+            } else if (idx < 0 || idx >= size) {
+                System.out.println("Invalid arguments");
+                return null;
+            } else {
                 Node temp = head;
-                for (int i = 0; i < size - 2; i++) {
+                for (int i = 0; i < idx; i++) {
                     temp = temp.next;
                 }
-                tail = temp;
-                tail.next = null;
-                size--;
+                return temp;
             }
         }
     }
