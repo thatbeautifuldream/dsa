@@ -14,6 +14,8 @@
 
 [Add First In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/add-first-in-linked-list.html)
 
+[Add at Index In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/add-at-index-in-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
