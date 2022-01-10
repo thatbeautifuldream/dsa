@@ -58,6 +58,8 @@ Invalid arguments
 List is empty
 ```
 
+## [ 🙈 Animation of the Linked List](https://yongdanielliang.github.io/animation/web/LinkedList.html)
+
 ## Solution
 
 ```java
