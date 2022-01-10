@@ -51,6 +51,8 @@ Invalid arguments
 List is empty
 ```
 
+## Solution
+
 ```java
 // * Get Value in Linked List
 
