@@ -58,6 +58,8 @@ Sample Output
 60
 ```
 
+## [🙈 Animation of the Linked List](https://yongdanielliang.github.io/animation/web/LinkedList.html)
+
 ## Solution
 
 ```java
