@@ -77,7 +77,7 @@ public class Main {
                 System.out.println("List is empty");
                 return -1;
             } else if (idx < 0 || idx >= size) {
-                System.out.println("Index out of bound");
+                System.out.println("Invalid arguments");
                 return -1;
             } else {
                 Node temp = head;
