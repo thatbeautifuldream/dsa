@@ -188,6 +188,22 @@ public class Main {
             }
         }
 
+        private Node getNodeAt(int idx) {
+            if (size == 0) {
+                System.out.println("List is empty");
+                return null;
+            } else if (idx < 0 || idx >= size) {
+                System.out.println("Invalid arguments");
+                return null;
+            } else {
+                Node temp = head;
+                for (int i = 0; i < idx; i++) {
+                    temp = temp.next;
+                }
+                return temp;
+            }
+        }
+
         public void removeLast() {
             if (size == 0) {
                 System.out.println("List is empty");
@@ -209,21 +225,7 @@ public class Main {
             }
         }
 
-        private Node getNodeAt(int idx) {
-            if (size == 0) {
-                System.out.println("List is empty");
-                return null;
-            } else if (idx < 0 || idx >= size) {
-                System.out.println("Invalid arguments");
-                return null;
-            } else {
-                Node temp = head;
-                for (int i = 0; i < idx; i++) {
-                    temp = temp.next;
-                }
-                return temp;
-            }
-        }
+
     }
 
     public static void main(String[] args) throws Exception {
