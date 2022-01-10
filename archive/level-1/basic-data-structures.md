@@ -10,6 +10,8 @@
 
 [Remove First In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-034/remove-first-in-linked-list.html)
 
+[Get Value In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/get-value-in-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
