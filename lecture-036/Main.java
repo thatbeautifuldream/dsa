@@ -222,11 +222,21 @@ public class Main {
         }
 
         int pop() {
-            return list.removeFirst();
+            if (list.size() == 0) {
+                System.out.println("Stack underflow");
+                return -1;
+            } else {
+                return list.removeFirst();
+            }
         }
 
         int top() {
-            return list.getFirst();
+            if (list.size() == 0) {
+                System.out.println("Stack underflow");
+                return -1;
+            } else {
+                return list.getFirst();
+            }
         }
     }
 
