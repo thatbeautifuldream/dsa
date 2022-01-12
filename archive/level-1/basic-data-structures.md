@@ -24,6 +24,8 @@
 
 [Linked List To Stack Adapter](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/linked-list-to-stack-adapter.html)
 
+[Linked List To Queue Adapter](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/linked-list-to-queue-adapter.html)
+
 ## Generic Tree
 
 ## Binary Tree

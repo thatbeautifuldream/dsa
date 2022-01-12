@@ -3,6 +3,7 @@
 // Reverse Linked List (Data Iterative) 
 // Reverse Linked List (Pointer Iterative) 
 // Linked List To Stack Adapter
+// Linked List To Queue Adapter
 import java.io.*;
 import java.util.*;
 
@@ -229,6 +230,30 @@ public class Main {
         }
     }
 
+    public static class LLToQueueAdapter {
+        LinkedList<Integer> list;
+
+        public LLToQueueAdapter() {
+            list = new LinkedList<>();
+        }
+
+        int size() {
+            // write your code here
+        }
+
+        void add(int val) {
+            // write your code here
+        }
+
+        int remove() {
+            // write your code here
+        }
+
+        int peek() {
+            // write your code here
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // LinkedList list = new LinkedList();
@@ -328,26 +353,52 @@ public class Main {
         // }
 
         // Linked List To Stack Adapter
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // LLToStackAdapter st = new LLToStackAdapter();
+
+        // String str = br.readLine();
+        // while (str.equals("quit") == false) {
+        // if (str.startsWith("push")) {
+        // int val = Integer.parseInt(str.split(" ")[1]);
+        // st.push(val);
+        // } else if (str.startsWith("pop")) {
+        // int val = st.pop();
+        // if (val != -1) {
+        // System.out.println(val);
+        // }
+        // } else if (str.startsWith("top")) {
+        // int val = st.top();
+        // if (val != -1) {
+        // System.out.println(val);
+        // }
+        // } else if (str.startsWith("size")) {
+        // System.out.println(st.size());
+        // }
+        // str = br.readLine();
+        // }
+
+        // Linked List To Queue Adapter
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        LLToStackAdapter st = new LLToStackAdapter();
+        LLToQueueAdapter qu = new LLToQueueAdapter();
 
         String str = br.readLine();
         while (str.equals("quit") == false) {
-            if (str.startsWith("push")) {
+            if (str.startsWith("add")) {
                 int val = Integer.parseInt(str.split(" ")[1]);
-                st.push(val);
-            } else if (str.startsWith("pop")) {
-                int val = st.pop();
+                qu.add(val);
+            } else if (str.startsWith("remove")) {
+                int val = qu.remove();
                 if (val != -1) {
                     System.out.println(val);
                 }
-            } else if (str.startsWith("top")) {
-                int val = st.top();
+            } else if (str.startsWith("peek")) {
+                int val = qu.peek();
                 if (val != -1) {
                     System.out.println(val);
                 }
             } else if (str.startsWith("size")) {
-                System.out.println(st.size());
+                System.out.println(qu.size());
             }
             str = br.readLine();
         }
