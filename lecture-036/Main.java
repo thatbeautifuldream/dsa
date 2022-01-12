@@ -2,6 +2,7 @@
 // !Agenda (Linked Lists Continued)
 // Reverse Linked List (Data Iterative) 
 // Reverse Linked List (Pointer Iterative) 
+// Linked List To Stack Adapter
 import java.io.*;
 import java.util.*;
 
@@ -204,9 +205,34 @@ public class Main {
         }
     }
 
+    public static class LLToStackAdapter {
+        LinkedList<Integer> list;
+
+        public LLToStackAdapter() {
+            list = new LinkedList<>();
+        }
+
+        int size() {
+            // write your code here
+        }
+
+        void push(int val) {
+            // write your code here
+        }
+
+        int pop() {
+            // write your code here
+        }
+
+        int top() {
+            // write your code here
+        }
+    }
+
     public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        LinkedList list = new LinkedList();
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // LinkedList list = new LinkedList();
+
         // Reverse Linked List (Data Iterative)
         // String str = br.readLine();
         // while (str.equals("quit") == false) {
@@ -252,50 +278,76 @@ public class Main {
         // }
         // str = br.readLine();
         // }
+
         // Reverse Linked List Pointer Iterative
+        // String str = br.readLine();
+        // while (str.equals("quit") == false) {
+        // if (str.startsWith("addLast")) {
+        // int val = Integer.parseInt(str.split(" ")[1]);
+        // list.addLast(val);
+        // } else if (str.startsWith("size")) {
+        // System.out.println(list.size());
+        // } else if (str.startsWith("display")) {
+        // list.display();
+        // } else if (str.startsWith("removeFirst")) {
+        // list.removeFirst();
+        // } else if (str.startsWith("getFirst")) {
+        // int val = list.getFirst();
+        // if (val != -1) {
+        // System.out.println(val);
+        // }
+        // } else if (str.startsWith("getLast")) {
+        // int val = list.getLast();
+        // if (val != -1) {
+        // System.out.println(val);
+        // }
+        // } else if (str.startsWith("getAt")) {
+        // int idx = Integer.parseInt(str.split(" ")[1]);
+        // int val = list.getAt(idx);
+        // if (val != -1) {
+        // System.out.println(val);
+        // }
+        // } else if (str.startsWith("addFirst")) {
+        // int val = Integer.parseInt(str.split(" ")[1]);
+        // list.addFirst(val);
+        // } else if (str.startsWith("addAt")) {
+        // int idx = Integer.parseInt(str.split(" ")[1]);
+        // int val = Integer.parseInt(str.split(" ")[2]);
+        // list.addAt(idx, val);
+        // } else if (str.startsWith("removeLast")) {
+        // list.removeLast();
+        // } else if (str.startsWith("removeAt")) {
+        // int idx = Integer.parseInt(str.split(" ")[1]);
+        // list.removeAt(idx);
+        // } else if (str.startsWith("reverseDI")) {
+        // list.reverseDI();
+        // } else if (str.startsWith("reversePI")) {
+        // list.reversePI();
+        // }
+        // str = br.readLine();
+        // }
+
+        // Linked List To Stack Adapter
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        LLToStackAdapter st = new LLToStackAdapter();
+
         String str = br.readLine();
         while (str.equals("quit") == false) {
-            if (str.startsWith("addLast")) {
+            if (str.startsWith("push")) {
                 int val = Integer.parseInt(str.split(" ")[1]);
-                list.addLast(val);
+                st.push(val);
+            } else if (str.startsWith("pop")) {
+                int val = st.pop();
+                if (val != -1) {
+                    System.out.println(val);
+                }
+            } else if (str.startsWith("top")) {
+                int val = st.top();
+                if (val != -1) {
+                    System.out.println(val);
+                }
             } else if (str.startsWith("size")) {
-                System.out.println(list.size());
-            } else if (str.startsWith("display")) {
-                list.display();
-            } else if (str.startsWith("removeFirst")) {
-                list.removeFirst();
-            } else if (str.startsWith("getFirst")) {
-                int val = list.getFirst();
-                if (val != -1) {
-                    System.out.println(val);
-                }
-            } else if (str.startsWith("getLast")) {
-                int val = list.getLast();
-                if (val != -1) {
-                    System.out.println(val);
-                }
-            } else if (str.startsWith("getAt")) {
-                int idx = Integer.parseInt(str.split(" ")[1]);
-                int val = list.getAt(idx);
-                if (val != -1) {
-                    System.out.println(val);
-                }
-            } else if (str.startsWith("addFirst")) {
-                int val = Integer.parseInt(str.split(" ")[1]);
-                list.addFirst(val);
-            } else if (str.startsWith("addAt")) {
-                int idx = Integer.parseInt(str.split(" ")[1]);
-                int val = Integer.parseInt(str.split(" ")[2]);
-                list.addAt(idx, val);
-            } else if (str.startsWith("removeLast")) {
-                list.removeLast();
-            } else if (str.startsWith("removeAt")) {
-                int idx = Integer.parseInt(str.split(" ")[1]);
-                list.removeAt(idx);
-            } else if (str.startsWith("reverseDI")) {
-                list.reverseDI();
-            } else if (str.startsWith("reversePI")) {
-                list.reversePI();
+                System.out.println(st.size());
             }
             str = br.readLine();
         }
