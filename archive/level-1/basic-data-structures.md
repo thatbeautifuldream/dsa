@@ -18,6 +18,8 @@
 
 [Remove Last In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-035/remove-last-in-linked-list.html)
 
+[Reverse A Linked List (data Iterative)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/reverse-a-linked-list-data-iterative.html)
+
 ## Generic Tree
 
 ## Binary Tree
