@@ -238,20 +238,31 @@ public class Main {
         }
 
         int size() {
-            // write your code here
+            return list.size();
         }
 
         void add(int val) {
-            // write your code here
+            list.addLast(val);
         }
 
         int remove() {
-            // write your code here
+            if (list.size() == 0) {
+                System.out.println("Queue underflow");
+                return -1;
+            } else {
+                return list.removeFirst();
+            }
         }
 
         int peek() {
-            // write your code here
+            if (list.size() == 0) {
+                System.out.println("Queue underflow");
+                return -1;
+            } else {
+                return list.getFirst();
+            }
         }
+
     }
 
     public static void main(String[] args) throws Exception {
