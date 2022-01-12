@@ -20,6 +20,8 @@
 
 [Reverse A Linked List (data Iterative)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/reverse-a-linked-list-data-iterative.html)
 
+[Reverse Linked List (pointer Iterative)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/reverse-a-linked-list-pointer-iterative.html)
+
 ## Generic Tree
 
 ## Binary Tree
