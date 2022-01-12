@@ -22,6 +22,8 @@
 
 [Reverse Linked List (pointer Iterative)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/reverse-a-linked-list-pointer-iterative.html)
 
+[Linked List To Stack Adapter](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/linked-list-to-stack-adapter.html)
+
 ## Generic Tree
 
 ## Binary Tree

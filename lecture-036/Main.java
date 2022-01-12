@@ -213,19 +213,19 @@ public class Main {
         }
 
         int size() {
-            // write your code here
+            return list.size();
         }
 
         void push(int val) {
-            // write your code here
+            list.addFirst(val);
         }
 
         int pop() {
-            // write your code here
+            return list.removeFirst();
         }
 
         int top() {
-            // write your code here
+            return list.getFirst();
         }
     }
 
