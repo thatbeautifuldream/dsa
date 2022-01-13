@@ -47,8 +47,8 @@
 
 | Category  | Number Solved |
 | --------- | :-----------: |
-| Test-01   |      2/3      |
-| Test-02   |      3/5      |
+| Test-01   |      3/3      |
+| Test-02   |      5/5      |
 | **Total** |    **5/8**    |
 
 ## Go to the [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa) & drop a 🌟 if this helped you! [![CodeFactor](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa/badge)](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa)
