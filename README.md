@@ -43,6 +43,14 @@
 | Time and Space Complexity      |      0/0      |
 | **Total**                      |    **0/0**    |
 
+## [Tests](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/README.html)
+
+| Category  | Number Solved |
+| --------- | :-----------: |
+| Test-01   |      2/3      |
+| Test-02   |      3/5      |
+| **Total** |    **5/8**    |
+
 ## Go to the [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa) & drop a 🌟 if this helped you! [![CodeFactor](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa/badge)](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa)
 
 These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in `Java` by [Milind Mishra](https://milind.bio.link).
