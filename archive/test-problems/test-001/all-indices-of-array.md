@@ -10,32 +10,26 @@
 
 > `Note -> The online judge can't force you to write the function recursively but that is what the spirit of question is. Write recursive and not iterative logic. The purpose of the question is to aid learning recursion and not test you.`
 
-Constraints
-
 ```
+Constraints
 1 <= n <= 10^4
 0 <= n1, n2, .. n elements <= 10 ^ 3
 0 <= x <= 10 ^ 3
-```
 
-Format :
+Format
 Input
-
-```
 A number n
 n1
 n2
 .. n number of elements
 A number x
-```
 
 Output
-`Return the array of indices from the allIndices function. Display is managed for you.`
+Return the array of indices from the allIndices function. Display is managed for you.
 
 Example
 Sample Input
 
-```
 6
 15
 11
@@ -44,11 +38,8 @@ Sample Input
 4
 9
 4
-```
 
 Sample Output
-
-```
 3
 4
 ```
