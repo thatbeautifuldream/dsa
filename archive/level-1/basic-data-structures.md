@@ -32,6 +32,8 @@
 
 [Merge Two Sorted Linked Lists](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/merge-two-sorted-linked-lists.html)
 
+[Merge Sort A Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/merge-sort-a-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
