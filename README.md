@@ -6,12 +6,12 @@
 
 | Category                             | Number Solved |
 | ------------------------------------ | :-----------: |
-| Getting Started                      |     14/14     |
-| Patterns                             |     13/20     |
-| Function and Arrays                  |     16/20     |
-| 2D Arrays                            |      5/9      |
-| String, String Builder and ArrayList |      3/6      |
-| **Total**                            |   **51/69**   |
+| Getting Started                      |   14/14 ✅    |
+| Patterns                             |   13/20 🙌🏻    |
+| Function and Arrays                  |   20/20 ✅    |
+| 2D Arrays                            |    9/9 ✅     |
+| String, String Builder and ArrayList |    6/6 ✅     |
+| **Total**                            |   **62/69**   |
 
 ## [Recursion and Backtracking](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html)
 
