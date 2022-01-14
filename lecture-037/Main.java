@@ -232,12 +232,12 @@ public class Main {
             Node c1 = l1.head; // current node of l1
             Node c2 = l2.head; // current node of l2
             LinkedList result = new LinkedList(); // result list initialized
-            if (c1 == null) {
-                return l2; // if l1 is empty, return l2
-            }
-            if (c2 == null) {
-                return l1; // if l2 is empty, return l1
-            }
+            // if (c1 == null) {
+            // return l2; // if l1 is empty, return l2
+            // }
+            // if (c2 == null) {
+            // return l1; // if l2 is empty, return l1
+            // }
             while (c1 != null && c2 != null) {
                 if (c1.data < c2.data) {
                     result.addLast(c1.data); // add smaller element to result
