@@ -30,6 +30,8 @@
 
 [Mid Of Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/mid-of-linked-list.html)
 
+[Merge Two Sorted Linked Lists](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/merge-two-sorted-linked-lists.html)
+
 ## Generic Tree
 
 ## Binary Tree
