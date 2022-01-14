@@ -1,7 +1,31 @@
+# Merge Two Sorted Linked Lists
 
-// !Agenda
-// Kth node from the end of a linked list
-// Midpoint of a linked list
+> 1. You are given a partially written LinkedList class.
+> 2. You are required to complete the body of mergeTwoSortedLists function. The function is static and is passed two lists which are sorted. The function is expected to return a new sorted list containing elements of both lists. Original lists must stay as they were.
+> 3. Input and Output is managed for you.
+
+```text
+   Input Format
+   Input is managed for you
+   Output Format
+   Output is managed for you
+   Question Video
+
+Constraints
+
+1. O(n) time complexity and constant space complexity expected.
+   Sample Input
+   5
+   10 20 30 40 50
+   10
+   7 9 12 15 37 43 44 48 52 56
+   Sample Output
+   7 9 10 12 15 20 30 37 40 43 44 48 50 52 56
+   10 20 30 40 50
+   7 9 12 15 37 43 44 48 52 56
+```
+
+```java
 import java.io.*;
 import java.util.*;
 
@@ -219,12 +243,14 @@ public class Main {
         }
 
         public int mid() {
-            Node s = head; // slow pointer
-            Node f = head; // fast pointer
+            Node f = head;
+            Node s = head;
+
             while (f.next != null && f.next.next != null) {
-                s = s.next; // slow pointer moves one node at a time
-                f = f.next.next; // fast pointer moves twice as fast
+                f = f.next.next;
+                s = s.next;
             }
+
             return s.data;
         }
 
@@ -261,67 +287,9 @@ public class Main {
             }
             return result; // return result
         }
-
     }
 
     public static void main(String[] args) throws Exception {
-        // Mid of a linked list
-        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        // LinkedList list = new LinkedList();
-
-        // String str = br.readLine();
-        // while (str.equals("quit") == false) {
-        // if (str.startsWith("addLast")) {
-        // int val = Integer.parseInt(str.split(" ")[1]);
-        // list.addLast(val);
-        // } else if (str.startsWith("size")) {
-        // System.out.println(list.size());
-        // } else if (str.startsWith("display")) {
-        // list.display();
-        // } else if (str.startsWith("removeFirst")) {
-        // list.removeFirst();
-        // } else if (str.startsWith("getFirst")) {
-        // int val = list.getFirst();
-        // if (val != -1) {
-        // System.out.println(val);
-        // }
-        // } else if (str.startsWith("getLast")) {
-        // int val = list.getLast();
-        // if (val != -1) {
-        // System.out.println(val);
-        // }
-        // } else if (str.startsWith("getAt")) {
-        // int idx = Integer.parseInt(str.split(" ")[1]);
-        // int val = list.getAt(idx);
-        // if (val != -1) {
-        // System.out.println(val);
-        // }
-        // } else if (str.startsWith("addFirst")) {
-        // int val = Integer.parseInt(str.split(" ")[1]);
-        // list.addFirst(val);
-        // } else if (str.startsWith("addAt")) {
-        // int idx = Integer.parseInt(str.split(" ")[1]);
-        // int val = Integer.parseInt(str.split(" ")[2]);
-        // list.addAt(idx, val);
-        // } else if (str.startsWith("removeLast")) {
-        // list.removeLast();
-        // } else if (str.startsWith("removeAt")) {
-        // int idx = Integer.parseInt(str.split(" ")[1]);
-        // list.removeAt(idx);
-        // } else if (str.startsWith("reverseDI")) {
-        // list.reverseDI();
-        // } else if (str.startsWith("reversePI")) {
-        // list.reversePI();
-        // } else if (str.startsWith("kthFromEnd")) {
-        // int idx = Integer.parseInt(str.split(" ")[1]);
-        // System.out.println(list.kthFromLast(idx));
-        // } else if (str.startsWith("mid")) {
-        // System.out.println(list.mid());
-        // }
-        // str = br.readLine();
-        // }
-
-        // Merge two sorted linked lists
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -346,3 +314,4 @@ public class Main {
         l2.display();
     }
 }
+```
