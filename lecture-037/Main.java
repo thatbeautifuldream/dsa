@@ -275,7 +275,16 @@ public class Main {
         }
 
         public static LinkedList mergeSort(Node head, Node tail) {
-            // write your code here
+            if (head == tail) {
+                LinkedList base = new LinkedList();
+                base.addLast(head.data);
+                return base;
+            }
+            Node mid = midNode(head, tail); // find mid node
+            LinkedList left = mergeSort(head, mid); // sort left half
+            LinkedList right = mergeSort(mid.next, tail); // sort right half
+            LinkedList result = mergeTwoSortedLists(left, right); // merge two sorted lists
+            return result;
         }
 
     }
