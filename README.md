@@ -29,7 +29,7 @@
 | Category           | Number Solved |
 | ------------------ | :-----------: |
 | Stacks and Queues  |      0/0      |
-| Linked Lists       |      2/2      |
+| Linked Lists       |    2/2 ✅     |
 | Generic Tree       |      0/0      |
 | Binary Tree        |      0/0      |
 | Binary Search Tree |      0/0      |
