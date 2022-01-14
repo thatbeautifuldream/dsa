@@ -2,6 +2,7 @@
 // !Agenda
 // Kth node from the end of a linked list
 // Midpoint of a linked list
+// Merge Sort A Linked List
 import java.io.*;
 import java.util.*;
 
@@ -273,6 +274,10 @@ public class Main {
             return slow; // return slow Node
         }
 
+        public static LinkedList mergeSort(Node head, Node tail) {
+            // write your code here
+        }
+
     }
 
     public static void main(String[] args) throws Exception {
@@ -333,6 +338,30 @@ public class Main {
         // }
 
         // Merge two sorted linked lists
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // int n1 = Integer.parseInt(br.readLine());
+        // LinkedList l1 = new LinkedList();
+        // String[] values1 = br.readLine().split(" ");
+        // for (int i = 0; i < n1; i++) {
+        // int d = Integer.parseInt(values1[i]);
+        // l1.addLast(d);
+        // }
+
+        // int n2 = Integer.parseInt(br.readLine());
+        // LinkedList l2 = new LinkedList();
+        // String[] values2 = br.readLine().split(" ");
+        // for (int i = 0; i < n2; i++) {
+        // int d = Integer.parseInt(values2[i]);
+        // l2.addLast(d);
+        // }
+
+        // LinkedList merged = LinkedList.mergeTwoSortedLists(l1, l2);
+        // merged.display();
+        // l1.display();
+        // l2.display();
+
+        // Merge Sort A Linked List
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -343,17 +372,8 @@ public class Main {
             l1.addLast(d);
         }
 
-        int n2 = Integer.parseInt(br.readLine());
-        LinkedList l2 = new LinkedList();
-        String[] values2 = br.readLine().split(" ");
-        for (int i = 0; i < n2; i++) {
-            int d = Integer.parseInt(values2[i]);
-            l2.addLast(d);
-        }
-
-        LinkedList merged = LinkedList.mergeTwoSortedLists(l1, l2);
-        merged.display();
+        LinkedList sorted = LinkedList.mergeSort(l1.head, l1.tail);
+        sorted.display();
         l1.display();
-        l2.display();
     }
 }
