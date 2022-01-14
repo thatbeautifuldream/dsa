@@ -262,6 +262,17 @@ public class Main {
             return result; // return result
         }
 
+        // Test program
+        public static Node midNode(Node head, Node tail) { // returns mid node of a linked list
+            Node slow = head; // slow pointer
+            Node fast = head; // fast pointer
+            while (fast != tail && fast.next != tail) { // if fast reaches end of list, slow will be at mid
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            return slow; // return slow Node
+        }
+
     }
 
     public static void main(String[] args) throws Exception {
