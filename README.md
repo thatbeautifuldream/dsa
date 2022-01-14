@@ -17,11 +17,11 @@
 
 | Category                  | Number Solved |
 | ------------------------- | :-----------: |
-| Introduction to Recursion |      8/8      |
-| Recursion in Arrays       |      6/6      |
-| Recursion with ArrayLists |      5/5      |
-| Recursion on its way up   |      6/7      |
-| Recursion Backtracking    |      4/4      |
+| Introduction to Recursion |    8/8 ✅     |
+| Recursion in Arrays       |    6/6 ✅     |
+| Recursion with ArrayLists |    5/5 ✅     |
+| Recursion on its way up   |    6/7 ✅     |
+| Recursion Backtracking    |    4/4 ✅     |
 | **Total**                 |   **29/30**   |
 
 ## [Basic Data Structures](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basic-data-structures.html)
