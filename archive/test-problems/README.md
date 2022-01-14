@@ -1,6 +1,6 @@
 # Test Problems
 
-## [Test-01](http://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/test-01/README.html)
+## [Test-01](http://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/test-01/)
 
 | Problem                                               | Progress |
 | ----------------------------------------------------- | -------- |
@@ -8,7 +8,7 @@
 | Grandfather's Car                                     | ✅       |
 | Number of Rectangles that can form the largest square | ✅       |
 
-## [Test-02](http://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/test-02/README.html)
+## [Test-02](http://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/test-02/)
 
 | Problem                                              | Progress |
 | ---------------------------------------------------- | -------- |
