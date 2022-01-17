@@ -28,11 +28,11 @@
 
 [Kth Node From End Of Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-036/kth-node-from-end-of-linked-list.html)
 
-[Mid Of Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/mid-of-linked-list.html)
+[Mid Of Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-037/mid-of-linked-list.html)
 
-[Merge Two Sorted Linked Lists](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/merge-two-sorted-linked-lists.html)
+[Merge Two Sorted Linked Lists](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-037/merge-two-sorted-linked-lists.html)
 
-[Merge Sort A Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/merge-sort-a-linked-list.html)
+[Merge Sort A Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-037/merge-sort-a-linked-list.html)
 
 ## Generic Tree
 
