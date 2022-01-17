@@ -38,6 +38,8 @@
 
 [Odd Even Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/odd-even-linked-list.html)
 
+[K Reverse In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/k-reverse-in-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
