@@ -63,7 +63,7 @@ public class Main {
             return;
         }
         System.out.println(a[i]);
-        displayArray(arr, i + 1);
+        displayArray(a, i + 1);
     }
 
 }
