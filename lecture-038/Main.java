@@ -298,9 +298,62 @@ public class Main {
             this.size = nl.size; // deep copy
 
         }
+
+        public void oddEven() {
+            LinkedList odd = new LinkedList(); // list of odd
+            LinkedList even = new LinkedList(); // list of even
+            while (this.size > 0) { // while list is not empty
+                int val = this.getFirst(); // get first element
+                this.removeFirst(); // remove first element
+                if (val % 2 == 0) { // if even
+                    even.addLast(val); // add to even list
+                } else { // if odd
+                    odd.addLast(val); // add to odd list
+                }
+            }
+            /*
+             * corner case : if odd/even list is empty or present
+             * odd even (combinations)
+             * 1 1
+             * 1 0
+             * 0 1
+             */
+            if (odd.size > 0 && even.size > 0) { // if both lists are present
+                odd.tail.next = even.head; // connect odd list to even list
+                this.head = odd.head; // list starts with odd list
+                this.tail = even.tail; // list ends with even list
+                this.size = odd.size + even.size; // size of new list
+            } else if (odd.size > 0) { // if only odd list is present
+                this.head = odd.head; // list starts with odd list
+                this.tail = odd.tail; // list ends with odd list
+                this.size = odd.size; // size of new list is the size of odd list
+            } else if (even.size > 0) { // if only even list is present
+                this.head = even.head; // list starts with even list
+                this.tail = even.tail; // list ends with even list
+                this.size = even.size; // size of new list is the size of even list
+            }
+        }
     }
 
     public static void main(String[] args) throws Exception {
+        // Remove Duplicates In A Sorted Linked List
+
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // int n1 = Integer.parseInt(br.readLine());
+        // LinkedList l1 = new LinkedList();
+        // String[] values1 = br.readLine().split(" ");
+        // for (int i = 0; i < n1; i++) {
+        // int d = Integer.parseInt(values1[i]);
+        // l1.addLast(d);
+        // }
+
+        // l1.display();
+        // l1.removeDuplicates();
+        // l1.display();
+
+        // Odd Even Linked List
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -311,8 +364,14 @@ public class Main {
             l1.addLast(d);
         }
 
+        int a = Integer.parseInt(br.readLine());
+        int b = Integer.parseInt(br.readLine());
+
         l1.display();
-        l1.removeDuplicates();
+        l1.oddEven();
+        l1.display();
+        l1.addFirst(a);
+        l1.addLast(b);
         l1.display();
     }
 }
