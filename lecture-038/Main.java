@@ -284,7 +284,18 @@ public class Main {
         }
 
         public void removeDuplicates() {
-            // write your code here
+            LinkedList nl = new LinkedList(); // new list
+            while (this.size > 0) {
+                int val = this.getFirst();
+                this.removeFirst();
+                if (nl.size == 0 || nl.tail.data != val) {
+                    nl.addLast(val);
+                }
+            }
+            this.head = nl.head; // deep copy
+            this.tail = nl.tail; // deep copy
+            this.size = nl.size; // deep copy
+            
         }
     }
 
