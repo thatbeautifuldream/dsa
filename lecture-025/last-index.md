@@ -66,6 +66,7 @@ public class Main {
                 return i;
             } else {
                 return li;
+                //return -1; (both -1 and li is valid)
             }
         } else { // li != -1 (li is the last index of target)
             // we got our last index of target
