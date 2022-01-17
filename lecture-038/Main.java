@@ -335,7 +335,38 @@ public class Main {
         }
 
         public void kReverse(int k) {
-            // write your code here
+            if (k > this.size) {
+                return;
+            }
+            LinkedList ans = new LinkedList();
+            while (this.size >= k) {
+                LinkedList tmp = new LinkedList(); // temp list
+                for (int i = 0; i < k; i++) {
+                    int val = this.getFirst(); // get first element
+                    this.removeFirst(); // remove first element
+                    tmp.addFirst(val); // add to temp list (addFirst ensures that the list is reversed)
+                }
+
+                if (ans.size == 0) {
+                    ans = tmp; // shallow copy of temp list
+                } else {
+                    ans.tail.next = tmp.head; // connect ans list to temp list
+                    ans.tail = tmp.tail; // update tail of ans list
+                    ans.size += tmp.size; // update size of ans list
+                }
+
+            }
+
+            // left elements
+            if (this.size > 0) {
+                ans.tail.next = this.head; // connect ans list to left elements
+                ans.tail = this.tail; // update tail of ans list
+                ans.size += this.size; // update size of ans list
+            }
+
+            this.head = ans.head; // deep copy
+            this.tail = ans.tail;
+            this.size = ans.size;
         }
     }
 
