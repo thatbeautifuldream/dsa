@@ -31,6 +31,8 @@ Sample Output
 10 9 1 5 3 2 8 4 100
 ```
 
+## Solution
+
 ```java
 // Agenda :
 // Odd Even Linked List
