@@ -42,6 +42,8 @@
 
 [Display Reverse (recursive) - Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/display-reverse-recursive-linked-list.html)
 
+[Reverse Linked List (pointer - Recursive)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/reverse-linked-list-pointer-recursive.html)
+
 ## Generic Tree
 
 ## Binary Tree
