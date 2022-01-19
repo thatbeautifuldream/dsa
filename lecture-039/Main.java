@@ -428,7 +428,7 @@ public class Main {
         }
 
         private void foldHelper() {
-            
+
         }
 
         public void fold() {
