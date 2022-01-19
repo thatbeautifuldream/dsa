@@ -40,6 +40,8 @@
 
 [K Reverse In Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-038/k-reverse-in-linked-list.html)
 
+[Display Reverse (recursive) - Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/display-reverse-recursive-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
