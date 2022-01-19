@@ -1,7 +1,8 @@
+
 // ! Agenda
 // Display Reverse (recursive) - Linked List
 // Reverse Linked List (pointer - Recursive)
-
+// Is Linked List A Palindrome? (Recursive)
 import java.io.*;
 import java.util.*;
 
@@ -400,6 +401,29 @@ public class Main {
             head = tail;
             tail = temp;
         }
+
+        Node pleft;
+
+        private boolean palindromeHelper(Node right) {
+            if (right == null) {
+                return true; // base case
+            }
+            boolean recAns = palindromeHelper(right.next); // recursive call
+            if (recAns == false) {
+                return false; // if not a palindrome
+            }
+            if (pleft.data != right.data) {
+                return false; // if not a palindrome
+            } else {
+                pleft = pleft.next; // move the left pointer
+                return true;
+            }
+        }
+
+        public boolean IsPalindrome() {
+            pleft = this.head;
+            return palindromeHelper(head);
+        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -424,6 +448,26 @@ public class Main {
         // l1.display();
 
         // !Reverse Linked List (pointer - Recursive)
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // int n1 = Integer.parseInt(br.readLine());
+        // LinkedList l1 = new LinkedList();
+        // String[] values1 = br.readLine().split(" ");
+        // for (int i = 0; i < n1; i++) {
+        // int d = Integer.parseInt(values1[i]);
+        // l1.addLast(d);
+        // }
+
+        // int a = Integer.parseInt(br.readLine());
+        // int b = Integer.parseInt(br.readLine());
+
+        // l1.display();
+        // l1.reversePR();
+        // l1.addLast(a);
+        // l1.addFirst(b);
+        // l1.display();
+
+        // !Is Linked List A Palindrome?
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -434,13 +478,6 @@ public class Main {
             l1.addLast(d);
         }
 
-        int a = Integer.parseInt(br.readLine());
-        int b = Integer.parseInt(br.readLine());
-
-        l1.display();
-        l1.reversePR();
-        l1.addLast(a);
-        l1.addFirst(b);
-        l1.display();
+        System.out.println(l1.IsPalindrome());
     }
 }
