@@ -44,6 +44,8 @@
 
 [Reverse Linked List (pointer - Recursive)](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/reverse-linked-list-pointer-recursive.html)
 
+[Is Linked List A Palindrome?](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/is-linked-list-a-palindrome.html)
+
 ## Generic Tree
 
 ## Binary Tree
