@@ -46,6 +46,8 @@
 
 [Is Linked List A Palindrome?](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/is-linked-list-a-palindrome.html)
 
+[Fold A Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/fold-a-linked-list.html)
+
 ## Generic Tree
 
 ## Binary Tree
