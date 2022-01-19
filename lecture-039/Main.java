@@ -4,6 +4,7 @@
 // Reverse Linked List (pointer - Recursive)
 // Is Linked List A Palindrome? (Recursive)
 // Fold A Linked List (Recursive)
+// Intersection Point Of Linked Lists
 import java.io.*;
 import java.util.*;
 
@@ -426,10 +427,34 @@ public class Main {
             return palindromeHelper(head);
         }
 
-        private void foldHelper
+        private void foldHelper() {
+
+        }
 
         public void fold() {
             // write your code here
+        }
+
+        public static int findIntersection(LinkedList one, LinkedList two) {
+            Node c1 = one.head;
+            Node c2 = two.head;
+            int diff = Math.abs(one.size - two.size);
+            if (one.size > two.size) { // make one the bigger list
+                while (diff > 0) {
+                    c1 = c1.next;
+                    diff--;
+                }
+            } else { // make two the bigger list
+                while (diff > 0) {
+                    c2 = c2.next;
+                    diff--;
+                }
+            }
+            while (c1 != c2) {
+                c1 = c1.next;
+                c2 = c2.next;
+            }
+            return c1.data;
         }
     }
 
@@ -488,6 +513,27 @@ public class Main {
         // System.out.println(l1.IsPalindrome());
 
         // !Fold A Linked List
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // int n1 = Integer.parseInt(br.readLine());
+        // LinkedList l1 = new LinkedList();
+        // String[] values1 = br.readLine().split(" ");
+        // for (int i = 0; i < n1; i++) {
+        // int d = Integer.parseInt(values1[i]);
+        // l1.addLast(d);
+        // }
+
+        // int a = Integer.parseInt(br.readLine());
+        // int b = Integer.parseInt(br.readLine());
+
+        // l1.display();
+        // l1.fold();
+        // l1.display();
+        // l1.addFirst(a);
+        // l1.addLast(b);
+        // l1.display();
+
+        // !Intersection Point Of Linked Lists
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -498,14 +544,29 @@ public class Main {
             l1.addLast(d);
         }
 
-        int a = Integer.parseInt(br.readLine());
-        int b = Integer.parseInt(br.readLine());
+        int n2 = Integer.parseInt(br.readLine());
+        LinkedList l2 = new LinkedList();
+        String[] values2 = br.readLine().split(" ");
+        for (int i = 0; i < n2; i++) {
+            int d = Integer.parseInt(values2[i]);
+            l2.addLast(d);
+        }
 
-        l1.display();
-        l1.fold();
-        l1.display();
-        l1.addFirst(a);
-        l1.addLast(b);
-        l1.display();
+        int li = Integer.parseInt(br.readLine());
+        int di = Integer.parseInt(br.readLine());
+        if (li == 1) {
+            Node n = l1.getNodeAt(di);
+            l2.tail.next = n;
+            l2.tail = l1.tail;
+            l2.size += l1.size - di;
+        } else {
+            Node n = l2.getNodeAt(di);
+            l1.tail.next = n;
+            l1.tail = l2.tail;
+            l1.size += l2.size - di;
+        }
+
+        int inter = LinkedList.findIntersection(l1, l2);
+        System.out.println(inter);
     }
 }
