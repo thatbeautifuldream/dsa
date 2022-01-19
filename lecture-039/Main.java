@@ -3,6 +3,7 @@
 // Display Reverse (recursive) - Linked List
 // Reverse Linked List (pointer - Recursive)
 // Is Linked List A Palindrome? (Recursive)
+// Fold A Linked List (Recursive)
 import java.io.*;
 import java.util.*;
 
@@ -424,6 +425,12 @@ public class Main {
             pleft = this.head;
             return palindromeHelper(head);
         }
+
+        private void foldHelper
+
+        public void fold() {
+            // write your code here
+        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -468,6 +475,19 @@ public class Main {
         // l1.display();
 
         // !Is Linked List A Palindrome?
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // int n1 = Integer.parseInt(br.readLine());
+        // LinkedList l1 = new LinkedList();
+        // String[] values1 = br.readLine().split(" ");
+        // for (int i = 0; i < n1; i++) {
+        // int d = Integer.parseInt(values1[i]);
+        // l1.addLast(d);
+        // }
+
+        // System.out.println(l1.IsPalindrome());
+
+        // !Fold A Linked List
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n1 = Integer.parseInt(br.readLine());
@@ -478,6 +498,14 @@ public class Main {
             l1.addLast(d);
         }
 
-        System.out.println(l1.IsPalindrome());
+        int a = Integer.parseInt(br.readLine());
+        int b = Integer.parseInt(br.readLine());
+
+        l1.display();
+        l1.fold();
+        l1.display();
+        l1.addFirst(a);
+        l1.addLast(b);
+        l1.display();
     }
 }

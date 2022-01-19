@@ -48,6 +48,8 @@
 
 [Fold A Linked List](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/fold-a-linked-list.html)
 
+[Intersection Point Of Linked Lists](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-039/intersection-point-of-linked-lists.html)
+
 ## Generic Tree
 
 ## Binary Tree
