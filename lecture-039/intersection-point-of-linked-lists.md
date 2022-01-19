@@ -462,14 +462,6 @@ public class Main {
             return palindromeHelper(head);
         }
 
-        private void foldHelper() {
-
-        }
-
-        public void fold() {
-            // write your code here
-        }
-
         public static int findIntersection(LinkedList one, LinkedList two) {
             Node c1 = one.head;
             Node c2 = two.head;
