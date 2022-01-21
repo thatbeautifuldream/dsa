@@ -79,13 +79,13 @@ public class Main {
         }
         int count = 0;
         if (n - 1 >= 0) {
-            count += climbStairsM(n - 1);
+            count += climbStairsM(n - 1, dp);
         }
         if (n - 2 >= 0) {
-            count += climbStairsM(n - 2);
+            count += climbStairsM(n - 2, dp);
         }
         if (n - 3 >= 0) {
-            count += climbStairsM(n - 3);
+            count += climbStairsM(n - 3, dp);
         }
         return dp[n] = count;
     }
