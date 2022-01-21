@@ -111,13 +111,23 @@ public class Main {
         sc.close();
     }
 
-    // tabulation
+    // (converting memoisation to tabulation)
     public static int fiboT(int N, int[] dp) {
         for (int n = 0; n < dp.length; n++) {
             if (n <= 1) {
                 dp[n] = n;
                 continue;
             }
+            dp[n] = dp[n - 1] + dp[n - 2];
+        }
+        return dp[N];
+    }
+
+    // or tabulation methord
+    public static int fiboT2(int N, int[] dp) {
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int n = 2; n < dp.length; n++) {
             dp[n] = dp[n - 1] + dp[n - 2];
         }
         return dp[N];
