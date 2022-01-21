@@ -85,10 +85,10 @@ public class Main {
         if (n <= 1) {
             return dp[n] = n;
         } else {
-            if (dp[n] == -1) {
-                return dp[n] = fiboM(n - 1, dp) + fiboM(n - 2, dp);
+            if (dp[n] != -1) {
+                return dp[n];
             }
-            return dp[n];
+            return dp[n] = fiboM(n - 1, dp) + fiboM(n - 2, dp);
         }
     }
 }
