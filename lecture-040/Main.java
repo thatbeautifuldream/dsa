@@ -46,13 +46,16 @@ public class Main {
         }
     }
 
-    // tabulation
+    // to convert memoisation to tabulation :
+    // 1. create a new array of size n+1
+    // 2. fill the first two values of the array with 0 and 1
+    // 3. fill the rest of the array with dp[n-1] + dp[n-2]
+    // 4. return dp[n]
+
     public static int fiboT(int N, int[] dp) {
-        for (int n = 0; n < dp.length; n++) {
-            if (n <= 1) {
-                dp[n] = n;
-                continue;
-            }
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int n = 2; n < dp.length; n++) {
             dp[n] = dp[n - 1] + dp[n - 2];
         }
         return dp[N];
