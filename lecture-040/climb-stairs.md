@@ -113,19 +113,17 @@ public class Main {
         for (int n = 0; n < dp.length; n++) {
             if (n == 0) {
                 dp[n] = 1;
+                continue;
             }
             int count = 0;
             if (n - 1 >= 0) {
                 count += dp[n - 1];
-                continue;
             }
             if (n - 2 >= 0) {
                 count += dp[n - 2];
-                continue;
             }
             if (n - 3 >= 0) {
                 count += dp[n - 3];
-                continue;
             }
             dp[n] = count;
         }

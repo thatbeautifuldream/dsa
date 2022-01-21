@@ -14,6 +14,8 @@ public class Main {
         System.out.println();
     }
 
+    // !Fibonaaci Series
+
     // recursive solution
     public static int fiboR(int n) {
         if (n <= 1) {
@@ -50,6 +52,8 @@ public class Main {
         return dp[N];
     }
 
+    // !Climb Stairs
+
     public static int climbStairsR(int n) {
         if (n == 0) {
             return 1;
@@ -77,13 +81,13 @@ public class Main {
         }
         int count = 0;
         if (n - 1 >= 0) {
-            count += climbStairsR(n - 1);
+            count += climbStairsM(n - 1, dp);
         }
         if (n - 2 >= 0) {
-            count += climbStairsR(n - 2);
+            count += climbStairsM(n - 2, dp);
         }
         if (n - 3 >= 0) {
-            count += climbStairsR(n - 3);
+            count += climbStairsM(n - 3, dp);
         }
         return dp[n] = count;
     }
@@ -93,19 +97,17 @@ public class Main {
         for (int n = 0; n < dp.length; n++) {
             if (n == 0) {
                 dp[n] = 1;
+                continue;
             }
             int count = 0;
             if (n - 1 >= 0) {
                 count += dp[n - 1];
-                continue;
             }
             if (n - 2 >= 0) {
                 count += dp[n - 2];
-                continue;
             }
             if (n - 3 >= 0) {
                 count += dp[n - 3];
-                continue;
             }
             dp[n] = count;
         }
