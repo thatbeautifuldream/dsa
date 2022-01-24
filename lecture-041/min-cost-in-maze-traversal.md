@@ -50,7 +50,10 @@ e22..
 
 `23`
 
-## Solution (Tabulation)
+## Solution (Tabulation) | Bottom Up Approach
+
+> 1. `BUT` : Bottom Up Tabulation
+> 2. `TDM` : Top Down Memoization
 
 ```java
 import java.io.*;
