@@ -28,8 +28,22 @@ public class Main {
         return dp[src] = count;
     }
 
+    public static int solveT(int[] a, int src, int dest, int[] dp) {
+        if (src == dest)
+            return dp[src] = 1;
+        if (dp[src] != 0)
+            return dp[src];
+        int count = 0;
+        for (int jump = 1; jump <= a[src] && src + jump <= dest; jump++) {
+            count += solveT(a, src + jump, dest, dp);
+        }
+        return dp[src] = count;
+    }
+
     public static void main(String[] args) throws Exception {
         // Climb stairs with variable jumps
+
+        // Recursive Solution
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
         // int[] a = new int[n];
@@ -39,6 +53,19 @@ public class Main {
         // int ans = solve(a, 0, n); // arr, src, dest
         // System.out.println(ans);
 
+        // Memoize Solution
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int[] a = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // a[i] = sc.nextInt();
+        // }
+        // int[] dp = new int[n + 1];
+        // int ans = solveM(a, 0, n, dp);
+        // System.out.println(ans);
+        // sc.close();
+
+        // Tabulation
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] a = new int[n];
@@ -46,7 +73,7 @@ public class Main {
             a[i] = sc.nextInt();
         }
         int[] dp = new int[n + 1];
-        int ans = solveM(a, 0, n, dp);
+        int ans = solveT(a, 0, n, dp);
         System.out.println(ans);
         sc.close();
     }
