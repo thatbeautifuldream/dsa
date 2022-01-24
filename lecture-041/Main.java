@@ -1,6 +1,8 @@
 
 // Agenda | Dynamic Programming
 // Climb Stairs With Variable Jumps
+// Min Cost In Maze Traversal
+
 import java.io.*;
 import java.util.*;
 
@@ -69,15 +71,47 @@ public class Main {
         // sc.close();
 
         // Tabulation
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int[] a = new int[n];
+        // for (int i = 0; i < n; i++) {
+        // a[i] = sc.nextInt();
+        // }
+        // int[] dp = new int[n + 1];
+        // int ans = solveT(a, 0, n, dp);
+        // System.out.println(ans);
+        // sc.close();
+
+        // Min Cost In Maze Traversal (Tabulation)
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] a = new int[n];
+        int m = sc.nextInt();
+        int[][] a = new int[n][m];
         for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
+            for (int j = 0; j < m; j++) {
+                a[i][j] = sc.nextInt();
+            }
         }
-        int[] dp = new int[n + 1];
-        int ans = solveT(a, 0, n, dp);
-        System.out.println(ans);
+
+        int[][] dp = new int[n][m];
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 0; j--) {
+                if (i == n - 1 && j == m - 1) {
+                    // single block
+                    dp[i][j] = a[i][j];
+                } else if (i == n - 1) {
+                    // last row
+                    dp[i][j] = a[i][j] + dp[i][j + 1];
+                } else if (j == m - 1) {
+                    // last column
+                    dp[i][j] = a[i][j] + dp[i + 1][j];
+                } else {
+                    // all other blocks
+                    dp[i][j] = Math.min(dp[i + 1][j], dp[i][j + 1]) + a[i][j];
+                }
+            }
+        }
+        System.out.println(dp[0][0]);
         sc.close();
     }
 
