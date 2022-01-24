@@ -116,6 +116,39 @@ public class Main {
 ## Solution (DP - Tabulation)
 
 ```java
+import java.io.*;
+import java.util.*;
 
+public class Main {
 
+    public static int solveT(int[] arr, int SRC, int dest, int[] dp) {
+        for (int src = dp.length - 1; src >= SRC; src--) {
+            if (src == dest) {
+                dp[src] = 1;
+                continue;
+            }
+            int count = 0;
+            for (int jump = 1; jump <= arr[src] && jump + src <= dest; jump++) {
+                count += dp[src + jump];// solveM(arr, src + jump, dest, dp);
+            }
+            dp[src] = count;
+        }
+        return dp[SRC];
+    }
+
+    public static void main(String[] args) throws Exception {
+        // Tabulation
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+        }
+        int[] dp = new int[n + 1];
+        int ans = solveT(a, 0, n, dp);
+        System.out.println(ans);
+        sc.close();
+    }
+
+}
 ```
