@@ -157,8 +157,8 @@ import java.util.*;
 public class Main {
 
     public static int goldMineTab(int[][] grid, int[][] dp) {
-        int n = grid.length;
-        int m = grid[0].length;
+        int n = grid.length; // number of rows
+        int m = grid[0].length; // number of columns
         for (int j = m - 1; j >= 0; j--) { // iterate from right to left
             for (int i = 0; i < n; i++) { // iterate from top to bottom
                 if (j == m - 1) { // first column
