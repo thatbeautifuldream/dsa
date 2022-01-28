@@ -56,6 +56,51 @@ An integer representing Maximum gold available.
 33
 ```
 
+## Solution (Recursion)
+
+> Fails a few test cases due to `TLE : Time Limit Exceeded`.
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static int goldMine(int i, int j, int[][] grid) {
+        if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length) {
+            return 0; // out of bounds
+        }
+        int op1 = goldMine(i - 1, j + 1, grid); // right-up
+        int op2 = goldMine(i, j + 1, grid); // right
+        int op3 = goldMine(i + 1, j + 1, grid); // right-down
+        int max = Math.max(op1, Math.max(op2, op3)); // max of 3 options
+        int calc = max + grid[i][j]; // add current cell value
+        return calc; // return computed value
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int[][] grid = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                grid[i][j] = sc.nextInt();
+            }
+        }
+
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int tmpAns = goldMine(i, 0, grid);
+            if (tmpAns > ans) {
+                ans = tmpAns;
+            }
+        }
+        System.out.println(ans);
+        sc.close();
+    }
+}
+```
+
 ## Solution (Memoisation)
 
 ```java
@@ -98,6 +143,68 @@ public class Main {
                 ans = tmpAns;
             }
         }
+        System.out.println(ans);
+        sc.close();
+    }
+}
+```
+
+## Solution (Tabulation)
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static int goldMineTab(int[][] grid, int[][] dp) {
+        int n = grid.length;
+        int m = grid[0].length;
+        for (int j = m - 1; j >= 0; j--) { // iterate from right to left
+            for (int i = 0; i < n; i++) { // iterate from top to bottom
+                if (j == m - 1) { // first column
+                    dp[i][j] = grid[i][j]; // set value
+                } else if (i == 0) { // first row
+                    int op1 = dp[i][j + 1]; // right-up
+                    int op2 = dp[i + 1][j + 1]; // right
+
+                    dp[i][j] = Math.max(op1, op2) + grid[i][j]; // update dp
+                } else if (i == n - 1) { // last row
+                    int op1 = dp[i][j + 1]; // right
+                    int op2 = dp[i - 1][j + 1]; // right-up
+
+                    dp[i][j] = Math.max(op1, op2) + grid[i][j]; // update dp
+                } else { // middle
+                    int op1 = dp[i][j + 1]; // right
+                    int op2 = dp[i - 1][j + 1]; // right-up
+                    int op3 = dp[i + 1][j + 1]; // right-down
+
+                    dp[i][j] = Math.max(op1, Math.max(op2, op3)) + grid[i][j]; // update dp
+                }
+
+            }
+        }
+
+        int ans = 0;
+        for (int i = 0; i < n; i++) { // iterate from top to bottom
+            ans = Math.max(ans, dp[i][0]); // get max value
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int[][] grid = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                grid[i][j] = sc.nextInt();
+            }
+        }
+
+        int[][] dp = new int[n][m];
+
+        int ans = goldMineTab(grid, dp);
         System.out.println(ans);
         sc.close();
     }
