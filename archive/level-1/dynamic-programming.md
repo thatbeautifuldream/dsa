@@ -16,6 +16,6 @@
 
 [Coin Change Combination](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-043/coin-change-combination.html)
 
-
+[Unbounded Knapsack](https://thatbeautifuldream.github.io/pepcoding-dsa/lecture-044/unbounded-knapsack.html)
 
 ## Time and Space Complexity
