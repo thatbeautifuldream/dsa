@@ -62,3 +62,18 @@ public class Main {
     }
 }
 ```
+
+```bash
+> java HighFreqChar.java
+aaaabbb
+a
+```
+
+## Dry Run
+
+| Character | Integer |
+| :-------: | :-----: |
+|     a     |    4    |
+|     b     |    3    |
+
+> So, we have 4 a's and 3 b's. Output is a because it has highest frequency.
