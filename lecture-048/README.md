@@ -49,12 +49,12 @@
 > hm.put("USA", 28);
 > hm.put("Dubai", 530);
 
-|  key  |       value       |
-| :---: | :---------------: |
-| India | 200 (get updated) |
-| China |        603        |
-|  USA  | 28 (gets updated) |
-| Dubai | 530 (gets added)  |
+|  key  |       value        |
+| :---: | :----------------: |
+| India | 200 (gets updated) |
+| China |        603         |
+|  USA  | 28 (gets updated)  |
+| Dubai |  530 (gets added)  |
 
 - Important Points
 
@@ -71,3 +71,34 @@
 - Important Points
 
   - If key is not present, returns null.
+
+## `hm.containsKey(key)` : Returns true if key is present in the hashmap. In O(1) time
+
+> hm.containsKey("India"); // Returns true
+> hm.containsKey("China"); // Returns true
+> hm.containsKey("USA"); // Returns true
+> hm.containsKey("Dubai"); // Returns true
+> hm.containsKey("Canada"); // Returns false
+
+## `hm.keySet()` : Returns the set of keys in the hashmap. In O(1) time
+
+> hm.keySet(); // Returns Set {India, China, USA, Dubai}
+
+## Array vs Hashmap
+
+- factorial storage
+
+| key | value |
+| :-: | :---: |
+|  0  |   1   |
+|  1  |   1   |
+|  2  |   2   |
+|  3  |   6   |
+|  4  |  24   |
+|  5  |  120  |
+
+- to get the value of nth factorial, we need to store all the values in an array.
+
+a[] = [1, 1, 2, 6, 24, 120]
+
+- to get value of fact(5) = 120 can get O(1) time by using array and O(lambda) ~ O(1) time by using hashmap
