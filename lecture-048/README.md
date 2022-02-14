@@ -238,7 +238,7 @@ System.out.println(hm.size()); // 5 : number of elements/entry in hashmap
 ```java
 import java.util.*;
 
-public class Main {
+public class HighFreqChar {
     public static void main(String[] args) {
         // to get maximum frequency character using hashmap
         Scanner sc = new Scanner(System.in);
@@ -252,6 +252,7 @@ public class Main {
             } else {
                 hm.put(ch, 1); // first time seeing this character
             }
+            // hm.put(ch, hm.getOrDefault(ch, 0) + 1);
         }
 
         char maxFreqChar = s.charAt(0);
@@ -283,3 +284,5 @@ a
 
 > So, we have 4 a's and 3 b's. Output is a because it has highest frequency.
 
+- A neat way to handle if else condition
+  > hm.put(ch, hm.getOrDefault(ch, 0) + 1);

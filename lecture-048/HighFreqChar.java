@@ -14,6 +14,7 @@ public class HighFreqChar {
             } else {
                 hm.put(ch, 1); // first time seeing this character
             }
+            // hm.put(ch, hm.getOrDefault(ch, 0) + 1);
         }
 
         char maxFreqChar = s.charAt(0);

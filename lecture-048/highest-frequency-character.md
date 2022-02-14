@@ -35,7 +35,7 @@
 ```java
 import java.util.*;
 
-public class Main {
+public class HighFreqChar {
     public static void main(String[] args) {
         // to get maximum frequency character using hashmap
         Scanner sc = new Scanner(System.in);
@@ -49,6 +49,7 @@ public class Main {
             } else {
                 hm.put(ch, 1); // first time seeing this character
             }
+            // hm.put(ch, hm.getOrDefault(ch, 0) + 1);
         }
 
         char maxFreqChar = s.charAt(0);
