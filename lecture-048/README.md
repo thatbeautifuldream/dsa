@@ -8,8 +8,66 @@
 - Traversal of array is O(n) and hashmap/hashset is O(1)
 - Searching in hashmap is O(1) (constant time) and insertion is O(1) (constant time) faster than array traversal.
 
-|        Operation         | Time Complexity |
-| :----------------------: | :-------------: |
-| Searching (value get...) |      O(1)       |
-| Insertion (value put...) |      O(1)       |
-| Check if present or not  |      O(1)       |
+## Hashmap Operations
+
+|        Operation         |  Time Complexity  |
+| :----------------------: | :---------------: |
+| Searching (value get...) | O(1) or O(Lambda) |
+| Insertion (value put...) |       O(1)        |
+| Check if present or not  |       O(1)        |
+
+- Lambda : Hashing Constant
+
+## Hashmap / Hashtable (A deep dive into the topic)
+
+- Hashmap is a data structure that stores key-value pairs. Lets take an example of a hashmap.
+
+| Country (key) | Population (value) |
+| :-----------: | :----------------: |
+|    "India"    |        428         |
+|    "China"    |        603         |
+|     "USA"     |        400         |
+
+- Hashmap combinations : <String, Integer>; <String, String>, <Integer, String>, <Integer, Integer>, <String, Double> ...
+- Key is supposed to be unique.
+
+## Hashmap Operations in Java
+
+## `hm.put(key, value)` : Inserts the key-value pair into the hashmap. In O(1) time
+
+> hm.put("India", 428);
+> hm.put("China", 603);
+> hm.put("USA", 400);
+
+|  key  | value |
+| :---: | :---: |
+| India |  428  |
+| China |  603  |
+|  USA  |  400  |
+
+> hm.put("India", 200);
+> hm.put("USA", 28);
+> hm.put("Dubai", 530);
+
+|  key  |       value       |
+| :---: | :---------------: |
+| India | 200 (get updated) |
+| China |        603        |
+|  USA  | 28 (gets updated) |
+| Dubai | 530 (gets added)  |
+
+- Important Points
+
+  - When same key gets inserted, value gets updated.
+
+## `hm.get(key)` : Returns the value of the key. In O(1) time
+
+> hm.get("India"); // Returns 200
+> hm.get("China"); // Returns 603
+> hm.get("USA"); // Returns 28
+> hm.get("Dubai"); // Returns 530
+> hm.get("Canada"); // Returns null
+
+- Important Points
+
+  - If key is not present, returns null.
