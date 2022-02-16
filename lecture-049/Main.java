@@ -1,6 +1,27 @@
 import java.util.*;
 
+// import java.util.PriorityQueue; // for PriorityQueue
 public class Main {
+
+    public static void pq() {
+        int[] a = { 1, 21, 57, 92, 43, 22, 21, 6 };
+        // Initialising a PriorityQueue of type int : by default min PQ
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+        for (int i : a) {
+            pq.add(a[i]); // adding elements to PQ
+            // cost of add() is O(log n) where n is the size of PQ
+            // for n elements is O(n log n)
+        }
+        // while (!pq.isEmpty()) {
+        // System.out.println(pq.remove()); // removing elements from PQ
+        // cost of remove() is O(log n) where n is the size of PQ
+        // }
+        // printing elements in sorted order
+        while (!pq.isEmpty()) {
+            System.out.println(pq.peek());
+            pq.remove();
+        }
+    }
 
     public static void longestConsecutiveSequenceOfElements(int arr[]) {
         // Step 1: Create HashMap
