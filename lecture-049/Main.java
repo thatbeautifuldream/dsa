@@ -81,7 +81,9 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        longestConsecutiveSequenceOfElements(arr);
+        // longestConsecutiveSequenceOfElements(arr);
+        int k = sc.nextInt();
+        kLargestElements(arr, k);
         sc.close();
     }
 }
