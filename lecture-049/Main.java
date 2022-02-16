@@ -3,6 +3,23 @@ import java.util.*;
 // import java.util.PriorityQueue; // for PriorityQueue
 public class Main {
 
+    public static void kLargestElements(int[] arr, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>(); // min heap
+        for (int i = 0; i < arr.length; i++) {
+            if (i < k)
+                pq.add(arr[i]); // add all elements to the heap at max k times
+            else {
+                if (arr[i] > pq.peek()) {
+                    pq.remove();
+                    pq.add(arr[i]);
+                }
+            }
+        }
+        while (!pq.isEmpty()) {
+            System.out.println(pq.remove());
+        }
+    }
+
     public static void pq() {
         int[] a = { 1, 21, 57, 92, 43, 22, 21, 6 };
         // Initialising a PriorityQueue of type int : by default min PQ

@@ -40,3 +40,15 @@ public static void pq() {
     }
 }
 ```
+
+## Three options to make Max Priority Queue : Lambda Expression, Collections.reverseOrder() and Comparator Interface
+
+- We choose to do it with `Collections.reverseOrder()`
+
+```java
+import java.util.Collection;
+
+// the code makes a max Priotity queue
+PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
+```
+
