@@ -52,5 +52,13 @@ import java.util.Collection;
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
 ```
 
+## Time Complexity
 
-
+| Operation  | Time Complexity |
+| :--------- | :-------------- |
+| add()      | O(log n)        |
+| peek()     | O(1)            |
+| poll()     | O(log n)        |
+| remove()   | O(log n)        |
+| contains() | O(1)            |
+| clear()    | O(n)            |
