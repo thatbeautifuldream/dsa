@@ -51,7 +51,7 @@
 | Test-02   |      5/5      |
 | **Total** |    **8/8**    |
 
-## Go to the [Repository](https://github.com/thatbeautifuldream/pepcoding-dsa) & drop a 🌟 if this helped you! [![CodeFactor](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa/badge)](https://www.codefactor.io/repository/github/thatbeautifuldream/pepcoding-dsa) [![wakatime](https://wakatime.com/badge/user/979dc33a-18f2-43a8-9325-3620ca63855e/project/3a90f2b1-d656-4348-a821-4ec7cd27331f.svg)](https://wakatime.com/badge/user/979dc33a-18f2-43a8-9325-3620ca63855e/project/3a90f2b1-d656-4348-a821-4ec7cd27331f)
+## Go to the [Repository](https://github.com/thatbeautifuldream/dsa) & drop a 🌟 if this helped you! [![CodeFactor](https://www.codefactor.io/repository/github/thatbeautifuldream/dsa/badge)](https://www.codefactor.io/repository/github/thatbeautifuldream/dsa) [![wakatime](https://wakatime.com/badge/user/979dc33a-18f2-43a8-9325-3620ca63855e/project/3a90f2b1-d656-4348-a821-4ec7cd27331f.svg)](https://wakatime.com/badge/user/979dc33a-18f2-43a8-9325-3620ca63855e/project/3a90f2b1-d656-4348-a821-4ec7cd27331f)
 
 These are the accepted solutions to the [Pepcoding Problem Set](https://www.pepcoding.com/resources/online-java-foundation/), written in `Java` by [Milind Mishra](https://milind.bio.link).
 
