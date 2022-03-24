@@ -2,7 +2,7 @@
 
 ## Level 1
 
-## [Basics of Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basics-of-programming.html)
+## [Basics of Programming](https://milind.live/dsa/archive/level-1/basics-of-programming.html)
 
 | Category                             | Number Solved |
 | ------------------------------------ | :-----------: |
@@ -13,7 +13,7 @@
 | String, String Builder and ArrayList |    6/6 ✅     |
 | **Total**                            |   **62/69**   |
 
-## [Recursion and Backtracking](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/recursion-and-backtracking.html)
+## [Recursion and Backtracking](https://milind.live/dsa/archive/level-1/recursion-and-backtracking.html)
 
 | Category                  | Number Solved |
 | ------------------------- | :-----------: |
@@ -24,7 +24,7 @@
 | Recursion Backtracking    |    4/4 ✅     |
 | **Total**                 |   **29/30**   |
 
-## [Basic Data Structures](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/basic-data-structures.html)
+## [Basic Data Structures](https://milind.live/dsa/archive/level-1/basic-data-structures.html)
 
 | Category           | Number Solved |
 | ------------------ | :-----------: |
@@ -35,7 +35,7 @@
 | Binary Search Tree |      0/0      |
 | **Total**          |    **2/2**    |
 
-## [Dynamic Programming](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/level-1/dynamic-programming.html)
+## [Dynamic Programming](https://milind.live/dsa/archive/level-1/dynamic-programming.html)
 
 | Category                       | Number Solved |
 | ------------------------------ | :-----------: |
@@ -43,7 +43,7 @@
 | Time and Space Complexity      |      0/0      |
 | **Total**                      |    **0/0**    |
 
-## [🧪 Tests](https://thatbeautifuldream.github.io/pepcoding-dsa/archive/test-problems/)
+## [🧪 Tests](https://milind.live/dsa/archive/test-problems/)
 
 | Category  | Number Solved |
 | --------- | :-----------: |
