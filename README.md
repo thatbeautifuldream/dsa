@@ -1,4 +1,4 @@
-![pepcoding-dsa](https://socialify.git.ci/thatbeautifuldream/pepcoding-dsa/image?description=1&descriptionEditable=This%20repository%20consists%20of%20all%20the%20material%20from%20my%20data%20structures%20and%20algorithms%20preparation.&language=1&name=1&owner=1&pattern=Solid&theme=Dark)
+![dsa](https://socialify.git.ci/thatbeautifuldream/dsa/image?language=1&pattern=Plus&theme=Dark)
 
 ## Level 1
 
