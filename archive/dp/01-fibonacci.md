@@ -78,3 +78,32 @@ public class Main {
 ```
 
 - This calls inidividual nodes once and stores the result in the array and returns it if it is asked to be computed again
+
+- Time Complexity for recursive solution is O(2^n)
+
+```text
+T(n) = T(n-1) + T(n-2) + k
+
+[ T(n) ~ 2T(n-1) + k ]
+[ T(n-1) ~ 2T(n-2) + k ] * 2
+[ T(n-2) ~ 2T(n-3) + k ] * 2^2
+[ T(n-3) ~ 2T(n-4) + k ] * 2^3
+.
+.
+.
+T(n) ~ k + 2k + 2^2 k + 2^3 k + ... + 2^n-1 k
+T(n) ~ k(2^n - 1)/2-1 (Sum of GP)
+T(n) proportional to 2^n
+```
+
+- With input growing 10 times time grows in order of 2^19 multiple of T(n)
+
+- With memoisation, we can reduce the time complexity to O(n) (linear)
+
+## Footnotes for Dynamic Programming
+
+- DP can be used in problems where simmilar subproblems are solved repeatedly.
+- DP can be used in problems where the subproblems are similar but the solution is not.
+- Two types of DP:
+  - Bottom-up (Memoisation)
+  - Top-down (Tabulation)
