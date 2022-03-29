@@ -76,3 +76,5 @@ public class Main {
     }
 }
 ```
+
+- This calls inidividual nodes once and stores the result in the array and returns it if it is asked to be computed again
